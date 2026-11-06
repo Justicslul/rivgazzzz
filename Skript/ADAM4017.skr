@@ -1,0 +1,121 @@
+02Adress_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®1®clBtnHighlight®0®
+02Driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®ADAM4017+.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+Driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+Adress_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+
+11TComADR
+active_ind_comport
+0
+2
+
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®25®13®221®356®-1®
+07TItems
+List_PrIndex
+COM(42125):Ãóñåëüñêîå ì/ğ ñïóòíèê ¹8
+Obj_Name_PrIndex
+02Obj_Name_PrIndex®9®-1®2®clWindowText®0®0®0®0®COM(42125)®nill®nill®nill®-1®Ãóñåëüñêîå ì/ğ ñïóòíèê ¹8®clLime®0®
+07TItems
+List_PrIndex
+Âğåìÿ ïîñëåäíåãî îòâåòà:1
+LastReply_PrIndex
+02LastReply_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïîñëåäíåãî îòâåòà®nill®nill®nill®-1®1®clGreen®0®
+03TFormulLab
+LastReply_PrIndex®RunMod(prXX®PrIndex®\pr\ADAM4017\AdamSQL.mod)
+04TFormulLab2
+totalsecond
+LastReply_PrIndex®99
+07TItems
+List_PrIndex
+Îòâåò îò ADAM 4017+:1
+Otvet_PrIndex
+02Otvet_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îòâåò îò ADAM 4017+®active_ind_comport®Driver_PrIndex:ADAM4017+.inf®Òîê 6 êàíàë®-1®1®clFuchsia®-1®
+03TFormulLab
+Otvet_PrIndex®RunMod(prXX®PrIndex®\pr\ADAM4017\AdamOtv.mod)
+03TFormulLab
+Otvet_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Ïğèäåë Adam ìàêñ:65535
+limit_the_maximum1_PrIndex
+02limit_the_maximum1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğèäåë Adam ìàêñ®nill®nill®nill®-1®65535®clSilver®0®
+07TItems
+List_PrIndex
+Ïğèäåë Adam ìèí:0
+limit_the_minimum1_PrIndex
+02limit_the_minimum1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğèäåë Adam ìèí®nill®nill®nill®-1®0®clGray®0®
+07TItems
+List_PrIndex
+Ïğèäåë äàò÷èê ìàêñ:6
+limit_the_maximum2_PrIndex
+02limit_the_maximum2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğèäåë äàò÷èê ìàêñ®nill®nill®nill®-1®6®clSilver®0®
+07TItems
+List_PrIndex
+Ïğèäåë äàò÷èê ìèí:0
+limit_the_minimum2_PrIndex
+02limit_the_minimum2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğèäåë äàò÷èê ìèí®nill®nill®nill®-1®0®clGray®0®
+07TItems
+List_PrIndex
+Çíà÷åíèå ñ ADAM 4017+:21980
+value_adam_PrIndex
+02value_adam_PrIndex®9®-1®2®clYellow®0®0®0®0®Çíà÷åíèå ñ ADAM 4017+®active_ind_comport®Driver_PrIndex:ADAM4017+.inf®Òîê 6 êàíàë®-1®21980®clRed®0®
+07TItems
+List_PrIndex
+Ïåğåñ÷èòàíî â Òîê:9,37
+Toc_PrIndex
+02Toc_PrIndex®9®-1®2®clNavy®0®0®0®0®Ïåğåñ÷èòàíî â Òîê®active_ind_comport®Driver_PrIndex:ADAM4017+.inf®Òîê 6 êàíàë®-1®9,37®clSilver®0®
+03TFormulLab
+Toc_PrIndex®RunFormChenj(([value_adam_PrIndex]-[limit_the_minimum1_PrIndex])*(20-4)/([limit_the_maximum1_PrIndex]-[limit_the_minimum1_PrIndex])+4)
+03TFormulLab
+Toc_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+Äàâëåíèå:2,01
+pressure_PrIndex
+02pressure_PrIndex®9®-1®2®clRed®0®0®0®0®Äàâëåíèå®active_ind_comport®Driver_PrIndex:ADAM4017+.inf®Òîê 6 êàíàë®-1®2,01®clYellow®0®
+03TFormulLab
+pressure_PrIndex®RunFormChenj(([value_adam_PrIndex]-[limit_the_minimum1_PrIndex])*(20-4)/([limit_the_maximum1_PrIndex]-[limit_the_minimum1_PrIndex])+4)
+03TFormulLab
+pressure_PrIndex®RunFormChenj(([limit_the_maximum2_PrIndex]-[limit_the_minimum2_PrIndex])/(20-4)*([Toc_PrIndex]-4))
+03TFormulLab
+pressure_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+Áàçà..Òàáëèöà SQL:Gusella..M1_Float
+Table_PrIndex
+02Table_PrIndex®9®-1®2®clWindowText®0®0®0®0®Áàçà..Òàáëèöà SQL®nill®nill®nill®-1®Gusella..M1_Float®clBtnHighlight®0®

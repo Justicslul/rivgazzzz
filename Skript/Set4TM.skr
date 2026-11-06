@@ -1,0 +1,417 @@
+06TListBox
+BVRM_PrIndex®85®211®200®467®-1®
+07TItems
+BVRM_PrIndex
+Èìÿ îáúåêòà:ÏÑ 35/6 êÂ "Óğèöêàÿ-2" ÎĞÓ-35 êÂ Ââîä ¹2
+N_A_M_E_PrIndex
+02N_A_M_E_PrIndex®9®-1®2®clWindowText®0®0®0®0®Èìÿ îáúåêòà®®®®-1®ÏÑ 35/6 êÂ "Óğèöêàÿ-2" ÎĞÓ-35 êÂ Ââîä ¹2®clAqua®0®
+07TItems
+BVRM_PrIndex
+Íîìåğ Òåëåôîíà:8-
+Nom_Tel_PrIndex
+02Nom_Tel_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íîìåğ Òåëåôîíà®®®®-1®8-®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Âğåìÿ ïîñëåäíåãî îòâåòà:1736
+Total_sec_PrIndex
+02Total_sec_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïîñëåäíåãî îòâåòà®®®®-1®1736®clBtnHighlight®0®
+04TFormulLab2
+totalsecond
+Total_sec_PrIndex®99
+07TItems
+BVRM_PrIndex
+ÁÄ äëÿ çàïèñè:test64832742
+BD_PrIndex
+02BD_PrIndex®9®-1®2®clWindowText®0®0®0®0®ÁÄ äëÿ çàïèñè®®®®-1®test64832742®clLime®0®
+07TItems
+BVRM_PrIndex
+Êëàññ òî÷íîñòè:0,5%
+Klass_Ap_PrIndex
+02Klass_Ap_PrIndex®9®-1®2®clWindowText®0®0®0®0®Êëàññ òî÷íîñòè®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 2®-1®0,5%®clBtnHighlight®0®
+03TFormulLab
+Klass_Ap_PrIndex®ChangeByteToInt([Klass_Ap_PrIndex:1 2])
+03TFormulLab
+Klass_Ap_PrIndex®ItemIndexToText([Klass_Ap_x])
+07TItems
+BVRM_PrIndex
+Êëàñ òî÷íîñòè ğåàê-îé ıí:1,0%
+Klass_Rp_PrIndex
+02Klass_Rp_PrIndex®9®-1®2®clWindowText®0®0®0®0®Êëàñ òî÷íîñòè ğåàê-îé ıí®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 1®-1®1,0%®clBtnHighlight®0®
+03TFormulLab
+Klass_Rp_PrIndex®ChangeByteToInt([Klass_Rp_PrIndex:3 4])
+03TFormulLab
+Klass_Rp_PrIndex®ItemIndexToText([Klass_Ap_x])
+07TItems
+BVRM_PrIndex
+Íîìèíàëüíîå íàğï-å:57,7 Â
+Namin_Napr_PrIndex
+02Namin_Napr_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íîìèíàëüíîå íàğï-å®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 1®-1®57,7 Â®clBtnHighlight®0®
+03TFormulLab
+Namin_Napr_PrIndex®ChangeByteToInt([Namin_Napr_PrIndex:5 6])
+03TFormulLab
+Namin_Napr_PrIndex®ItemIndexToText([Namin_Napr_x])
+07TItems
+BVRM_PrIndex
+Íîìèíàëüíûé òîê:5 A
+Namin_Toc_PrIndex
+02Namin_Toc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íîìèíàëüíûé òîê®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 1®-1®5 A®clBtnHighlight®0®
+03TFormulLab
+Namin_Toc_PrIndex®ChangeByteToInt([Namin_Toc_PrIndex:7 8])
+03TFormulLab
+Namin_Toc_PrIndex®ItemIndexToText([Namin_Toc_x])
+07TItems
+BVRM_PrIndex
+×èñëî íàïğàâë-ëèíèé:2
+Chislo_Napr_PrIndex
+02Chislo_Napr_PrIndex®9®-1®2®clWindowText®0®0®0®0®×èñëî íàïğàâë-ëèíèé®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 2®-1®2®clBtnHighlight®0®
+03TFormulLab
+Chislo_Napr_PrIndex®ChangeByteToInt([Chislo_Napr_PrIndex:1])
+03TFormulLab
+Chislo_Napr_PrIndex®ItemIndexToText([Chislo_Napr_x])
+07TItems
+BVRM_PrIndex
+Òåìïåğ. äèàï-îí:40
+Chislo_Temper_PrIndex
+02Chislo_Temper_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåìïåğ. äèàï-îí®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 2®-1®40®clBtnHighlight®0®
+03TFormulLab
+Chislo_Temper_PrIndex®ChangeByteToInt([Chislo_Temper_PrIndex:2])
+03TFormulLab
+Chislo_Temper_PrIndex®ItemIndexToText([Chislo_Temper_x])
+07TItems
+BVRM_PrIndex
+×èñëî ôàç ñ÷åò÷èêà:3
+Chislo_Faz_PrIndex
+02Chislo_Faz_PrIndex®9®-1®2®clWindowText®0®0®0®0®×èñëî ôàç ñ÷åò÷èêà®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 2®-1®3®clBtnHighlight®0®
+03TFormulLab
+Chislo_Faz_PrIndex®ChangeByteToInt([Chislo_Faz_PrIndex:3 4])
+03TFormulLab
+Chislo_Faz_PrIndex®ItemIndexToText([Chislo_Faz_x])
+07TItems
+BVRM_PrIndex
+Ïîñò. ñ÷åò÷èêà(èìï.êÂò ÷):5000
+Post_sch_PrIndex
+02Post_sch_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïîñò. ñ÷åò÷èêà(èìï.êÂò ÷)®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 2®-1®5000®clBtnHighlight®0®
+03TFormulLab
+Post_sch_PrIndex®ChangeByteToInt([Post_sch_PrIndex:5 6 7 8])
+03TFormulLab
+Post_sch_PrIndex®ItemIndexToText([Post_sch_x])
+07TItems
+BVRM_PrIndex
+Òèï ñ÷åò÷èêà:ÏÑ×-4ÒÌ.05
+Type_sch_PrIndex
+02Type_sch_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òèï ñ÷åò÷èêà®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 3®-1®ÏÑ×-4ÒÌ.05®clBtnHighlight®0®
+03TFormulLab
+Type_sch_PrIndex®ChangeByteToInt([Type_sch_PrIndex:1 2 3 4])
+03TFormulLab
+Type_sch_PrIndex®ItemIndexToText([Type_sch_x])
+07TItems
+BVRM_PrIndex
+ÊÒÍ:1
+Koef_fransf_napr_PrIndex
+02Koef_fransf_napr_PrIndex®9®-1®2®clWindowText®0®0®0®0®ÊÒÍ®active_ind_comport®Driver_PrIndex:Set4TM.inf®Òåêóùèé êîıôôèöèåíò òğàíñôîğìàöèè Byte 1®-1®1®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+ÊÒÒ:1
+Koef_fransf_toc_PrIndex
+02Koef_fransf_toc_PrIndex®9®-1®2®clWindowText®0®0®0®0®ÊÒÒ®active_ind_comport®Driver_PrIndex:Set4TM.inf®Òåêóùèé êîıôôèöèåíò òğàíñôîğìàöèè Byte 2®-1®1®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+ÊÒÎ:1
+Koef_transf_PrIndex
+02Koef_transf_PrIndex®9®-1®2®clWindowText®0®0®0®0®ÊÒÎ®active_ind_comport®Driver_PrIndex:Set4TM.inf®Òåêóùèé êîıôôèöèåíò òğàíñôîğìàöèè Byte 2®-1®1®clBtnHighlight®0®
+03TFormulLab
+Koef_transf_PrIndex®RunFormChenj([Koef_fransf_napr_PrIndex]*[Koef_fransf_toc_PrIndex])
+07TItems
+BVRM_PrIndex
+Ïğèçíàê ğàçìåğíîñòè 0 êÂò, 1 ÌÂò:100
+Ed_Izm_Mb_Kv_PrIndex
+02Ed_Izm_Mb_Kv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğèçíàê ğàçìåğíîñòè 0 êÂò, 1 ÌÂò®active_ind_comport®Driver_PrIndex:Set4TM.inf®Ïğèçíàê ğàçìåğíîñòè: 0 – êÂò, 1 ìÂò®-1®100®clBtnHighlight®0®
+03TFormulLab
+Ed_Izm_Mb_Kv_PrIndex®ItemIndexToText([Ed_Izm_Mb_Kv_x])
+07TItems
+BVRM_PrIndex
+Ñåğèéíûé íîìåğ:304081810
+Serial_Nom_PrIndex
+02Serial_Nom_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñåğèéíûé íîìåğ®active_ind_comport®Driver_PrIndex:Set4TM.inf®Ñåğèéíûé íîìåğ ïğèáîğà®-1®304081810®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Äàòà âûïóñêà:9.4.8
+Date_Statr_PrIndex
+02Date_Statr_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà âûïóñêà®active_ind_comport®Driver_PrIndex:Set4TM.inf®Äàòà âûïóñêà®-1®9.4.8®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Òåìïåğàòóğà:11
+Chislo_Temper_1_PrIndex
+02Chislo_Temper_1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåìïåğàòóğà®active_ind_comport®Driver_PrIndex:Set4TM.inf®Òåìïåğàòóğà®-1®11®clBtnHighlight®0®
+03TFormulLab
+Chislo_Temper_1_PrIndex®ChangeByteToInt([Chislo_Temper_1_PrIndex:2 3 4 5 6 7 8])
+07TItems
+BVRM_PrIndex
+Óêàçàòåëü àğõèâà ñòğîêè:472
+MaxmochnArh_PrIndex
+02MaxmochnArh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Óêàçàòåëü àğõèâà ñòğîêè®active_ind_comport®Driver_PrIndex:Set4TM.inf®Óêàçàòåëü ñòğîêè àğõèâà®-1®472®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Âğåìÿ ñğåçà:30
+Ti_me_srez_PrIndex
+02Ti_me_srez_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ñğåçà®active_ind_comport®Driver_PrIndex:Set4TM.inf®Âğåìÿ ñğåçà®-1®30®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Âğåìÿ ïğèáîğà:2.80.0 0:A7:5
+Date_And_Time_PrIndex
+02Date_And_Time_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïğèáîğà®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®Äàòà è âğåìÿ ïğèáîğà®-1®2.80.0 0:A7:5®clGradientActiveCaption®0®
+07TItems
+BVRM_PrIndex
+Âğåìÿ íà ìîìåíò ÷òåíèÿ:0
+Systime_PrIndex
+02Systime_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ íà ìîìåíò ÷òåíèÿ®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®Äàòà è âğåìÿ ïğèáîğà®-1®0®clGradientActiveCaption®-1®
+03TFormulLab
+Systime_PrIndex®SetChenjPer([SysDateTime])
+07TItems
+BVRM_PrIndex
+Îòâåò àğõèâà íàêîïèòåëüíîãî:1
+Otvet_PrIndex
+02Otvet_PrIndex®9®-1®2®clBlack®0®0®0®0®Îòâåò àğõèâà íàêîïèòåëüíîãî®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatAth®-1®1®clYellow®-1®
+03TFormulLab
+Otvet_PrIndex®RunMod(PrXX®PrIndex®\Pr\SET4TM\OtSbrosa.mod)
+03TFormulLab
+Otvet_PrIndex®SetChenjPer(1)
+07TItems
+BVRM_PrIndex
+Äàòà è âğåìÿ ñğåçà:27.09.14 03
+DateTime_Srez_PrIndex
+02DateTime_Srez_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà è âğåìÿ ñğåçà®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®ÄàòàÈÂğåìÿ ñòğîêè àğõèâà®-1®27.09.14 03®clYellow®0®
+03TFormulLab
+DateTime_Srez_PrIndex®FormatDateTime(dd.mm.yy hh)
+07TItems
+BVRM_PrIndex
+Àêòèâíàÿ ıíåğãèÿ+:7,4199
+A_pl_PrIndex
+02A_pl_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àêòèâíàÿ ıíåğãèÿ+®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatAth®-1®7,4199®clBtnHighlight®0®
+03TFormulLab
+A_pl_PrIndex®RunFormChenj([A_pl_PrIndex]/(2*[Post_sch_PrIndex])*[Koef_transf_PrIndex])
+07TItems
+BVRM_PrIndex
+Àêòèâíàÿ ıíåğãèÿ-:0
+A_min_PrIndex
+02A_min_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àêòèâíàÿ ıíåğãèÿ-®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®À- StatAth®-1®0®clBtnHighlight®0®
+03TFormulLab
+A_min_PrIndex®RunFormChenj([A_min_PrIndex]/(2*[Post_sch_PrIndex])*[Koef_transf_PrIndex])
+07TItems
+BVRM_PrIndex
+Ğåàêòèâíàÿ ıíåğãèÿ+:3,2885
+R_pl_PrIndex
+02R_pl_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğåàêòèâíàÿ ıíåğãèÿ+®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®R+ StatAth®-1®3,2885®clBtnHighlight®0®
+03TFormulLab
+R_pl_PrIndex®RunFormChenj([R_pl_PrIndex]/(2*[Post_sch_PrIndex])*[Koef_transf_PrIndex])
+07TItems
+BVRM_PrIndex
+Ğåàêòèâíàÿ ıíåğãèÿ-:0
+R_min_PrIndex
+02R_min_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğåàêòèâíàÿ ıíåğãèÿ-®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®R- StatAth®-1®0®clBtnHighlight®0®
+03TFormulLab
+R_min_PrIndex®RunFormChenj([R_min_PrIndex]/(2*[Post_sch_PrIndex])*[Koef_transf_PrIndex])
+07TItems
+BVRM_PrIndex
+Öåëîñòíîñòü äàííûõ(÷àòü 1):0
+Byte_one1_PrIndex
+02Byte_one1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Öåëîñòíîñòü äàííûõ(÷àòü 1)®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatMoch®-1®0®clBtnHighlight®0®
+03TFormulLab
+Byte_one1_PrIndex®ChangeByteToInt([Byte_one1_PrIndex:1])
+07TItems
+BVRM_PrIndex
+Àğõèâ À+:0,3066
+Ok_Apl_PrIndex
+02Ok_Apl_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ À+®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatMoch®-1®0,3066®clBtnHighlight®0®
+03TFormulLab
+Ok_Apl_PrIndex®ChangeByteToInt([Ok_Apl_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Ok_Apl_PrIndex®RunFormChenj(([Ok_Apl_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Àğõèâ À-:0
+Ok_Amn_PrIndex
+02Ok_Amn_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ À-®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®À- StatMoch®-1®0®clBtnHighlight®0®
+03TFormulLab
+Ok_Amn_PrIndex®ChangeByteToInt([Ok_Amn_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Ok_Amn_PrIndex®RunFormChenj(([Ok_Amn_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Àğõèâ R+:0,1352
+Ok_Rpl_PrIndex
+02Ok_Rpl_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ R+®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®R+ StatMoch®-1®0,1352®clBtnHighlight®0®
+03TFormulLab
+Ok_Rpl_PrIndex®ChangeByteToInt([Ok_Rpl_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Ok_Rpl_PrIndex®RunFormChenj(([Ok_Rpl_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Àğõèâ R-:0
+Ok_Rmn_PrIndex
+02Ok_Rmn_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ R-®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®R- StatMoch®-1®0®clBtnHighlight®0®
+03TFormulLab
+Ok_Rmn_PrIndex®ChangeByteToInt([Ok_Rmn_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Ok_Rmn_PrIndex®RunFormChenj(([Ok_Rmn_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Öåëîñòíîñòü äàííûõ(÷àñòü 2):0
+Byte_one2_PrIndex
+02Byte_one2_PrIndex®9®0®2®clWindowText®0®0®0®0®Öåëîñòíîñòü äàííûõ(÷àñòü 2)®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatMoch2®-1®0®clBtnHighlight®0®
+03TFormulLab
+Byte_one2_PrIndex®IntToByteChenge([Byte_one2_PrIndex])
+03TFormulLab
+Byte_one2_PrIndex®ChangeByteToInt([Byte_one2_PrIndex:1])
+07TItems
+BVRM_PrIndex
+Àğõèâ À+:0,3186
+Save_Byte_PrIndex
+02Save_Byte_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ À+®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatMoch2®-1®0,3186®clBtnHighlight®0®
+03TFormulLab
+Save_Byte_PrIndex®ChangeByteToInt([Save_Byte_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Save_Byte_PrIndex®RunFormChenj(([Save_Byte_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Àğõèâ À-:0
+Save_Byte1_PrIndex
+02Save_Byte1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ À-®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®À- StatMoch2®-1®0®clBtnHighlight®0®
+03TFormulLab
+Save_Byte1_PrIndex®ChangeByteToInt([Save_Byte1_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Save_Byte1_PrIndex®RunFormChenj(([Save_Byte1_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Àğõèâ R+:0,1446
+Save_Byte2_PrIndex
+02Save_Byte2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ R+®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®R+ StatMoch2®-1®0,1446®clBtnHighlight®0®
+03TFormulLab
+Save_Byte2_PrIndex®ChangeByteToInt([Save_Byte2_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Save_Byte2_PrIndex®RunFormChenj(([Save_Byte2_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Àğõèâ R-:0
+Save_Byte3_PrIndex
+02Save_Byte3_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àğõèâ R-®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®R- StatMoch2®-1®0®clBtnHighlight®0®
+03TFormulLab
+Save_Byte3_PrIndex®ChangeByteToInt([Save_Byte3_PrIndex:2 3 4 5 6 7 8 9 10 11 12 13 14 15 16])
+03TFormulLab
+Save_Byte3_PrIndex®RunFormChenj(([Save_Byte3_PrIndex]/(2*[Post_sch_PrIndex]))*(60/[Ti_me_srez_PrIndex]*[Koef_transf_PrIndex]))
+07TItems
+BVRM_PrIndex
+Ñîõğàíåíèå:1
+Save_BD_Otvet1_PrIndex
+02Save_BD_Otvet1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîõğàíåíèå®®®®-1®1®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Òåêóùèé ïğîãğàììíûé óêàçàòåëü äàòû:912
+A_Dr_PrIndex
+02A_Dr_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåêóùèé ïğîãğàììíûé óêàçàòåëü äàòû®®®®-1®912®clRed®0®
+07TItems
+BVRM_PrIndex
+Òåêóùèé ïğîãğàììûé óêàçàòåëü:928
+A_Dr_data_PrIndex
+02A_Dr_data_PrIndex®9®-1®2®clBlack®0®0®0®0®Òåêóùèé ïğîãğàììûé óêàçàòåëü®®®®-1®928®clRed®0®
+07TItems
+BVRM_PrIndex
+Max àğõèâà:32744
+Count_Arh_ivw_PrIndex
+02Count_Arh_ivw_PrIndex®9®-1®2®clWindowText®0®0®0®0®Max àğõèâà®active_ind_comport®Driver_PrIndex:Set4TM.inf®Èñïîëíåíèÿ ñ÷åò÷èêà Byte 3®-1®32744®clBtnHighlight®0®
+03TFormulLab
+Count_Arh_ivw_PrIndex®ChangeByteToInt([Count_Arh_ivw_PrIndex:1 2 3 4])
+03TFormulLab
+Count_Arh_ivw_PrIndex®ItemIndexToText([Count_Arh_ivw_x])
+07TItems
+BVRM_PrIndex
+Îòâåò äàòà:1
+Otvet1_mosh_PrIndex
+02Otvet1_mosh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îòâåò äàòà®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®ÄàòàÈÂğåìÿ ñòğîêè àğõèâà®-1®1®clMoneyGreen®-1®
+03TFormulLab
+Otvet1_mosh_PrIndex®RunMod(PrXX®PrIndex®\Pr\SET4TM\Obrab_arh_mosh.mod)
+03TFormulLab
+Otvet1_mosh_PrIndex®SetChenjPer(1)
+07TItems
+BVRM_PrIndex
+Îòâåò äàííûå:1
+Otvet2_mosh_PrIndex
+02Otvet2_mosh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îòâåò äàííûå®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®A+ StatMoch2®-1®1®clMoneyGreen®-1®
+03TFormulLab
+Otvet2_mosh_PrIndex®RunMod(PrXX®PrIndex®\Pr\SET4TM\InsertArhMosh.mod)
+03TFormulLab
+Otvet2_mosh_PrIndex®SetChenjPer(1)
+07TItems
+BVRM_PrIndex
+Ğàçíèöà äàò â ìèí:185
+Date_Dec_Date_PrIndex
+02Date_Dec_Date_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàçíèöà äàò â ìèí®®®®-1®185®clFuchsia®0®
+07TItems
+BVRM_PrIndex
+Äàòà çàïèñè â ÁÄ 1:2800220
+BD_insert_PrIndex
+02BD_insert_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà çàïèñè â ÁÄ 1®active_ind_comport®Driver_PrIndex:Set4TM_Stat_Arh.inf®Äàòà è âğåìÿ ïğèáîğà®-1®2800220®clBtnHighlight®0®
+03TFormulLab
+BD_insert_PrIndex®RunMod(PrXX®PrIndex®\Pr\SET4TM\InsertNewOtSbros.mod)
+04TFormulLab2
+totalsecond
+BD_insert_PrIndex®99
+07TItems
+BVRM_PrIndex
+Äàòà çàïèñè â ÁÄ 2:2800220
+BD_insert_real_PrIndex
+02BD_insert_real_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà çàïèñè â ÁÄ 2®®®®-1®2800220®clBtnHighlight®0®
+02Password_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®48 48 48 48 48 48®clBtnHighlight®0®
+02A_Dres1_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®0®clBtnHighlight®0®
+03TFormulLab
+A_Dres1_PrIndex®ByteReplChange
+02A_Dres_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®0®clBtnHighlight®0®
+03TFormulLab
+A_Dres_PrIndex®ByteReplChange
+02Tarif_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®1®clBtnHighlight®0®
+02Arh_send_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®0®clBtnHighlight®0®
+02Adress_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®237®clBtnHighlight®0®
+02Driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®îïèñàíèå®®®®-1®Set4TM.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+Driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+Adress_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+Arh_send_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+Tarif_PrIndex
+11TComADR
+active_ind_comport
+0
+3
+A_Dres_PrIndex
+11TComADR
+active_ind_comport
+0
+4
+A_Dres1_PrIndex
+11TComADR
+active_ind_comport
+0
+5
+Password_PrIndex
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+

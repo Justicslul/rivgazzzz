@@ -1,0 +1,250 @@
+02zapardch_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®75 199®clBtnHighlight®0®
+03TFormulLab
+zapardch_PrIndex®ByteReplChange
+02adress_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®33®clBtnHighlight®0®
+02driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®BVRM3.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+adress_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+zapardch_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+BVRM_PrIndex®16®16®244®569®-1®
+07TItems
+BVRM_PrIndex
+COM():Íàçâàíèå îáúåêòà
+Object_PrIndex
+02Object_PrIndex®9®-1®2®clBlack®0®0®0®0®COM()®nill®nill®nill®-1®Íàçâàíèå îáúåêòà®clAqua®0®
+07TItems
+BVRM_PrIndex
+----:êîíñòàíòû:----
+Konct_PrIndex
+02Konct_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®êîíñòàíòû:----®clGreen®0®
+07TItems
+BVRM_PrIndex
+Âğåìÿ ïîñëå îòâåòà:2
+Time_otv_PrIndex
+02Time_otv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïîñëå îòâåòà®nill®nill®nill®-1®2®clYellow®0®
+04TFormulLab2
+totalsecond
+Time_otv_PrIndex®99
+07TItems
+BVRM_PrIndex
+Ñîñòîÿíèå îòâåòà:1
+otvet_PrIndex
+02otvet_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîñòîÿíèå îòâåòà®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ïóñòàÿ çàïèñü â ïğèáîğå®-1®1®clBtnHighlight®-1®
+03TFormulLab
+otvet_PrIndex®RunMod(prXX®PrIndex®\pr\BVRM\BVRM.mod)
+03TFormulLab
+otvet_PrIndex®SetChenjPer(1)
+07TItems
+BVRM_PrIndex
+Íà÷àòü îïğîñ:14.11.14 00:00:00
+DateStartOpros_PrIndex
+02DateStartOpros_PrIndex®9®-1®2®clYellow®0®0®0®0®Íà÷àòü îïğîñ®nill®nill®nill®-1®14.11.14 00:00:00®clRed®0®
+03TFormulLab
+DateStartOpros_PrIndex®RunMod(prXX®PrIndex®\pr\BVRM\StartOpros.mod)
+03TFormulLab
+DateStartOpros_PrIndex®FormatDateTime(dd.mm.yy hh:mm:ss)
+07TItems
+BVRM_PrIndex
+StartH:19399
+StartH_PrIndex
+02StartH_PrIndex®9®-1®2®clWindowText®0®0®0®0®StartH®nill®nill®nill®-1®19399®clGray®0®
+07TItems
+BVRM_PrIndex
+StartD:20146
+StartD_PrIndex
+02StartD_PrIndex®9®-1®2®clWindowText®0®0®0®0®StartD®nill®nill®nill®-1®20146®clSilver®0®
+07TItems
+BVRM_PrIndex
+----:Çíà÷åíèÿ Ğåàë/×àñ/Ñóò:----
+Label_PrIndex
+02Label_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®Çíà÷åíèÿ Ğåàë/×àñ/Ñóò:----®clRed®0®
+07TItems
+BVRM_PrIndex
+Äàòà&âğåìÿ:19.02.15 22:00:00
+prdata_PrIndex
+02prdata_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà&âğåìÿ®active_ind_comport®driver_PrIndex:BVRM3.inf®*Äàòà&âğåìÿ®-1®19.02.15 22:00:00®clLime®0®
+03TFormulLab
+prdata_PrIndex®FormatDateTime(dd.mm.yy hh:mm:ss)
+07TItems
+BVRM_PrIndex
+Ñåğèéíèê:14441
+SerialNum_PrIndex
+02SerialNum_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñåğèéíèê®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ñåğèéíèê®-1®14441®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Òåìïåğàòóğà ti1:31,3237743377686
+T1r_PrIndex
+02T1r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåìïåğàòóğà ti1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Òåìïåğàòóğà ti1®-1®31,3237743377686®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Äàâëåíèå pi1:0,61558735370636
+P1r_PrIndex
+02P1r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàâëåíèå pi1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Äàâëåíèå pi1®-1®0,61558735370636®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Ğàñõîä ĞÓ vi1:16,4932155609131
+Vi1r_PrIndex
+02Vi1r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä ĞÓ vi1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ğàñõîä ĞÓ vi1®-1®16,4932155609131®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Ğàñõîä ÑÓ gi1:114,933662414551
+Gi1r_PrIndex
+02Gi1r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä ÑÓ gi1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ğàñõîä ÑÓ gi1®-1®114,933662414551®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ĞÓ ×àñòü0 V1:0
+rasry01r_PrIndex
+02rasry01r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ĞÓ ×àñòü0 V1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü0 V1®-1®0®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ĞÓ ×àñòü1 V1:63502
+rasry11r_PrIndex
+02rasry11r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ĞÓ ×àñòü1 V1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü1 V1®-1®63502®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ĞÓ ×àñòü2 V1:63485,3523769379
+V1r_PrIndex
+02V1r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ĞÓ ×àñòü2 V1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü2 V1®-1®63485,3523769379®clGray®0®
+03TFormulLab
+V1r_PrIndex®RunFormChenj([rasry01r_PrIndex]*4000000000+[rasry11r_PrIndex]+[V1r_PrIndex])
+07TItems
+BVRM_PrIndex
+Òåìïåğàòóğà ti2:-74,8888778686523
+T2r_PrIndex
+02T2r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåìïåğàòóğà ti2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Òåìïåğàòóğà ti2®-1®-74,8888778686523®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Äàâëåíèå pi2:-0,398321568965912
+P2r_PrIndex
+02P2r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàâëåíèå pi2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Äàâëåíèå pi2®-1®-0,398321568965912®clWhite®0®
+07TItems
+BVRM_PrIndex
+Ğàñõîä ĞÓ vi2:0
+Vi2r_PrIndex
+02Vi2r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä ĞÓ vi2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ğàñõîä ĞÓ vi2®-1®0®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Ğàñõîä ÑÓ gi2:0
+Gi2r_PrIndex
+02Gi2r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä ÑÓ gi2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ğàñõîä ÑÓ gi2®-1®0®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ÑÓ ×àñòü0 G1:0
+rassy01r_PrIndex
+02rassy01r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ÑÓ ×àñòü0 G1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü0 V2®-1®0®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ÑÓ ×àñòü1 G1:641042
+rassy11r_PrIndex
+02rassy11r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ÑÓ ×àñòü1 G1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ÑÓ ×àñòü1 G1®-1®641042®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ÑÓ ×àñòü2 G1:640926,813333809
+G1r_PrIndex
+02G1r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ÑÓ ×àñòü2 G1®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ÑÓ ×àñòü2 G1®-1®640926,813333809®clGray®0®
+03TFormulLab
+G1r_PrIndex®RunFormChenj([rassy01r_PrIndex]*4000000000+[rassy11r_PrIndex]+[G1r_PrIndex])
+07TItems
+BVRM_PrIndex
+Îáúåì ĞÓ ×àñòü0 V2:0
+rasry02r_PrIndex
+02rasry02r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ĞÓ ×àñòü0 V2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü0 V2®-1®0®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ĞÓ ×àñòü1 V2:17
+rasry12r_PrIndex
+02rasry12r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ĞÓ ×àñòü1 V2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü1 V2®-1®17®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ĞÓ ×àñòü2 V2:17,0607001408935
+V2r_PrIndex
+02V2r_PrIndex®9®-1®2®clWindowText®0®0®-3®-1®Îáúåì ĞÓ ×àñòü2 V2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ĞÓ ×àñòü2 V2®-1®17,0607001408935®clSilver®0®
+03TFormulLab
+V2r_PrIndex®RunFormChenj([rasry02r_PrIndex]*4000000000+[rasry12r_PrIndex]+[V2r_PrIndex])
+07TItems
+BVRM_PrIndex
+Îáúåì ÑÓ ×àñòü0 G2:0
+rassy02r_PrIndex
+02rassy02r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ÑÓ ×àñòü0 G2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ÑÓ ×àñòü0 G2®-1®0®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ÑÓ ×àñòü1 G2:272
+rassy12r_PrIndex
+02rassy12r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ÑÓ ×àñòü1 G2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ÑÓ ×àñòü1 G2®-1®272®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îáúåì ÑÓ ×àñòü2 G2:0,805643975734711
+G2r_PrIndex
+02G2r_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ÑÓ ×àñòü2 G2®active_ind_comport®driver_PrIndex:BVRM3.inf®*Îáúåì ÑÓ ×àñòü2 G2®-1®0,805643975734711®clSilver®0®
+03TFormulLab
+G2r_PrIndex®RunFormChenj([rassy02r_PrIndex]*4000000000+[rassy12r_PrIndex]+[G2r_PrIndex])
+07TItems
+BVRM_PrIndex
+Àäğåñ ïàìÿòè êóğñîğà ÷àñ.:19506
+adrch_PrIndex
+02adrch_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àäğåñ ïàìÿòè êóğñîğà ÷àñ.®active_ind_comport®driver_PrIndex:BVRM3.inf®**Àäğåñ ïàìÿòè êóğñîğà ÷àñ.®-1®19506®clBtnHighlight®0®
+03TFormulLab
+adrch_PrIndex®RunFormChenj(16384+[adrch_PrIndex])
+07TItems
+BVRM_PrIndex
+Àäğåñ ïàìÿòè êóğñîğà ñóò.:20151
+adrsy_PrIndex
+02adrsy_PrIndex®9®-1®2®clWindowText®0®0®0®0®Àäğåñ ïàìÿòè êóğñîğà ñóò.®active_ind_comport®driver_PrIndex:BVRM3.inf®**Àäğåñ ïàìÿòè êóğñîğà ñóò.®-1®20151®clBtnHighlight®0®
+03TFormulLab
+adrsy_PrIndex®RunFormChenj(16384+[adrsy_PrIndex])
+07TItems
+BVRM_PrIndex
+Ïóñòàÿ çàïèñü â ïğèáîğå:23224
+pzapch_PrIndex
+02pzapch_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïóñòàÿ çàïèñü â ïğèáîğå®active_ind_comport®driver_PrIndex:BVRM3.inf®*Ïóñòàÿ çàïèñü â ïğèáîğå®-1®23224®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Áàçà&Òàáëèöà:Gaz..Gaz12_1
+table_PrIndex
+02table_PrIndex®9®-1®2®clRed®0®0®0®0®Áàçà&Òàáëèöà®nill®nill®nill®-1®Gaz..Gaz12_1®clBtnHighlight®0®
+07TItems
+BVRM_PrIndex
+Îïğåäåëÿåì ïîòîê äàííûõ(Ğ|×|Ñ):3
+Potok_PrIndex
+02Potok_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îïğåäåëÿåì ïîòîê äàííûõ(Ğ|×|Ñ)®active_ind_comport®driver_PrIndex:BVRM3.inf®*Potoc_real_Ch_Sy®-1®3®clBtnHighlight®0®

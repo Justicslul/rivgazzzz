@@ -1,0 +1,218 @@
+unit Unit2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Dec_Ed: TEdit;
+    Hex_Ed: TEdit;
+    Button1: TButton;
+    Label2: TLabel;
+    Label3: TLabel;
+    Slovo: TEdit;
+    Label1: TLabel;
+    RadioGroup1: TRadioGroup;
+    Edit1: TEdit;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure RadioGroup1Click(Sender: TObject);
+    procedure SlovoKeyPress(Sender: TObject; var Key: Char);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+const
+  decsim: array [0..9] of Char=('0','1','2','3','4','5','6','7','8','9');
+  hexsim: array [0..15] of Char=('0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F');
+var
+  Form2: TForm2;
+
+implementation
+
+uses Unit1;
+var s: integer;
+    sb: boolean;
+{$R *.dfm}
+
+procedure TForm2.Button1Click(Sender: TObject);
+var str, tmp: string;
+    sim: char;
+    i: integer;
+begin
+case RadioGroup1.ItemIndex of
+ 0:
+ BEGIN
+ Dec_Ed.Clear;
+ Hex_Ed.Clear;
+ str:=slovo.Text;
+ for i:=1 to length(str) do
+  begin
+   dec_ed.Text:=dec_ed.Text+inttostr(ord(str[i]))+' ';
+  end;
+
+ tmp:='';
+ str:=Dec_Ed.Text;
+ for i:=1 to length(str) do
+  begin
+   if str[i]<>' ' then
+    begin
+     tmp:=tmp+str[i];
+    end
+   else
+    begin
+     Hex_Ed.Text:=Hex_Ed.Text+dec2hex(strtoint(tmp))+' ';
+     tmp:='';
+    end;
+  end;
+ END;
+
+ 1:
+ BEGIN
+ Dec_Ed.Clear;
+ Hex_Ed.Clear;
+ str:=slovo.Text;
+
+ tmp:='';
+ for i:=1 to length(str) do
+  begin
+   if str[i]<>' ' then
+    begin
+     tmp:=tmp+str[i];
+    end
+   else
+    begin
+     DEC_Ed.Text:=DEC_Ed.Text+inttostr(HEX2DEC(tmp))+' ';
+     if i<>length(str) then tmp:='';
+    end;
+  end;
+  DEC_Ed.Text:=DEC_Ed.Text+inttostr(HEX2DEC(tmp))+' ';
+
+
+ str:=Dec_Ed.Text;
+ tmp:='';
+ for i:=1 to length(str) do
+  begin
+   if str[i]<>' ' then
+    begin
+     tmp:=tmp+str[i];
+    end
+   else
+    begin
+     Hex_Ed.Text:=Hex_Ed.Text+chr(strtoint(tmp))+' ';
+     if i<>length(str) then tmp:='';
+    end;
+  end;
+ END;
+ 2:
+ BEGIN
+ Dec_Ed.Clear;
+ Hex_Ed.Clear;
+ str:=slovo.Text;
+
+ tmp:='';
+ for i:=1 to length(str) do
+  begin
+   if str[i]<>' ' then
+    begin
+     tmp:=tmp+str[i];
+    end
+   else
+    begin
+     DEC_Ed.Text:=DEC_Ed.Text+DEC2HEX(strtoint(tmp))+' ';
+     if i<>length(str) then tmp:='';
+    end;
+  end;
+  DEC_Ed.Text:=DEC_Ed.Text+DEC2HEX(strtoint(tmp))+' ';
+
+
+ str:=slovo.Text;
+ tmp:='';
+ for i:=1 to length(str) do
+  begin
+   if str[i]<>' ' then
+    begin
+     tmp:=tmp+str[i];
+    end
+   else
+    begin
+     Hex_Ed.Text:=Hex_Ed.Text+chr(strtoint(tmp))+' ';
+     if i<>length(str) then tmp:='';
+    end;
+  end;
+  Hex_Ed.Text:=Hex_Ed.Text+chr(strtoint(tmp))+' ';
+ END;
+END;
+end;
+
+procedure TForm2.RadioGroup1Click(Sender: TObject);
+begin
+ SLOVO.Clear;
+ Dec_Ed.Clear;
+ Hex_Ed.Clear;
+ case RadioGroup1.ItemIndex of
+ 0:
+  begin
+  label1.Caption:='якнбн';
+  label2.Caption:='DEC';
+  label3.Caption:='HEX';
+  end;
+ 1:
+  begin
+   label3.Caption:='якнбн';
+   label2.Caption:='DEC';
+   label1.Caption:='HEX';
+  end;
+ 2:
+  begin
+   label3.Caption:='якнбн';
+   label1.Caption:='DEC';
+   label2.Caption:='HEX';
+  end;
+ end;
+end;
+
+procedure TForm2.SlovoKeyPress(Sender: TObject; var Key: Char);
+begin
+ sb:=false;
+  case RadioGroup1.ItemIndex of
+ 0:
+  begin
+
+  end;
+ 1:
+  begin
+    for s:=0 to 15 do
+    begin
+     if (UpperCase(key)=hexsim[s]) or (key=' ') or (key=#8) then
+      begin
+       sb:=true;
+       key:=UpCase(key);
+       break;
+      end
+      else sb:=false;
+    end;
+    if sb=false then key:=#13;
+  end;
+ 2:
+  begin
+   for s:=0 to 9 do
+    begin
+     if (key=decsim[s]) or (key=' ') or (key=#8) then
+      begin
+       sb:=true;
+       break;
+      end
+      else sb:=false;
+    end;
+    if sb=false then key:=#13;
+  end;
+ end;
+end;
+
+end.

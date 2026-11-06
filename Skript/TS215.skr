@@ -1,0 +1,199 @@
+02Send_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®50 48 49 53 45 49 48 45 49 52 44 49 48®clBtnHighlight®0®230®14®®®®
+04TFormulLab2
+StrToDec([DateChag_PrIndex:7 8 9 10]-[DateChag_PrIndex:4 5]-[DateChag_PrIndex:1 2],[DateChag_PrIndex:12 13])
+Send_PrIndex®19
+02Driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®TC215.inf®clBtnHighlight®0®53®14®®®®
+10TCodrv
+active_ind_comport
+Driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+Send_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+
+11TComADR
+active_ind_comport
+0
+2
+
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®14®23®219®420®-1®®
+07TItems
+List_PrIndex
+active_ind_comport:ÑÏ Èğèíîâñêèé 
+02NameObj_PrIndex®9®-1®2®clWindowText®0®0®0®0®active_ind_comport®nill®nill®nill®-1®ÑÏ Èğèíîâñêèé ®clAqua®0®91®14®®®®
+07TItems
+List_PrIndex
+Âğåìÿ íà îïğîñ:0:00:00
+02TimeZvonka_PrIndex®9®0®2®clRed®0®0®0®0®Âğåìÿ íà îïğîñ®nill®nill®nill®-1®0:00:00®clYellow®0®43®14®®®®
+07TItems
+List_PrIndex
+Äàòà ñòàğòà:15.10.2015 09:00:00
+02_Date_PrIndex®9®-1®2®clBlue®0®0®0®0®Äàòà ñòàğòà®nill®nill®nill®-1®15.10.2015 09:00:00®clYellow®0®118®14®®®®
+07TItems
+List_PrIndex
+Ğàçäíèöà â ÷àñàõ:23
+02Date_PrIndex®9®-1®2®clBlue®0®0®0®0®Ğàçäíèöà â ÷àñàõ®nill®nill®nill®-1®23®clYellow®0®14®14®®®®
+07TItems
+List_PrIndex
+Òàáëèöà:Gaz..Gaz16_4
+02table_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òàáëèöà®nill®nill®nill®-1®Gaz..Gaz16_4®clBtnHighlight®0®74®14®®®®
+07TItems
+List_PrIndex
+Ñåğèéíèê:12514760
+02Serial_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñåğèéíèê®active_ind_comport®Driver_PrIndex:TC215.inf®Ñåğèéíûé íîìåğ®-1®12514760®clFuchsia®0®56®14®®®®
+07TItems
+List_PrIndex
+Ñîñòîÿíèå îòâåòà àğõ:1
+02Otvetarh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîñòîÿíèå îòâåòà àğõ®active_ind_comport®Driver_PrIndex:TC215.inf®Äàòà ñòğîêè àğõèâà®-1®1®clBtnHighlight®-1®7®14®®®®
+03TFormulLab
+Otvetarh_PrIndex®RunMod(prXX®PrIndex®\pr\TS215\TS215.mod)
+03TFormulLab
+Otvetarh_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Íà÷àòü ñ äàòû:14.10.2015 10:00:00
+02DateChag_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íà÷àòü ñ äàòû®nill®nill®nill®-1®14.10.2015 10:00:00®clSilver®0®118®14®®®®
+03TFormulLab
+DateChag_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Äàòà ñòğîêè àğõèâà:#0103:00
+02DatePrib_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà ñòğîêè àğõèâà®active_ind_comport®Driver_PrIndex:TC215.inf®Äàòà ñòğîêè àğõèâà®-1®#0103:00®clLime®0®55®14®®®®
+03TFormulLab
+DatePrib_PrIndex®Replace(-®.)
+03TFormulLab
+DatePrib_PrIndex®Replace(,® )
+03TFormulLab
+DatePrib_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm)
+03TFormulLab
+DatePrib_PrIndex®SetChenjPer([DatePrib_PrIndex]:00)
+07TItems
+List_PrIndex
+Vñò.îáù:#0103
+02VstOb_PrIndex®9®-1®2®clWindowText®0®0®0®0®Vñò.îáù®active_ind_comport®Driver_PrIndex:TC215.inf®Vñò.îáù®-1®#0103®clOlive®0®37®14®®®®
+07TItems
+List_PrIndex
+V ñò. íåâîçì:#0103
+02VstNev_PrIndex®9®-1®2®clWindowText®0®0®0®0®V ñò. íåâîçì®active_ind_comport®Driver_PrIndex:TC215.inf®V ñò. íåâîçì®-1®#0103®clTeal®0®37®14®®®®
+07TItems
+List_PrIndex
+V ğàá. îáù:#0103
+02VrabOb_PrIndex®9®-1®2®clWindowText®0®0®0®0®V ğàá. îáù®active_ind_comport®Driver_PrIndex:TC215.inf®V ğàá. îáù®-1®#0103®clOlive®0®37®14®®®®
+07TItems
+List_PrIndex
+V ğàá. íåâîçì:#0103
+02VrabNev_PrIndex®9®-1®2®clWindowText®0®0®0®0®V ğàá. íåâîçì®active_ind_comport®Driver_PrIndex:TC215.inf®V ğàá. íåâîçì®-1®#0103®clTeal®0®37®14®®®®
+07TItems
+List_PrIndex
+Ğ áàğ:#0103
+02Pbar_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğ áàğ®active_ind_comport®Driver_PrIndex:TC215.inf®Ğ áàğ®-1®#0103®clSilver®0®37®14®®®®
+07TItems
+List_PrIndex
+Ò Ñ:#0103
+02Tc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ò Ñ®active_ind_comport®Driver_PrIndex:TC215.inf®Ò Ñ®-1®#0103®clRed®0®37®14®®®®
+07TItems
+List_PrIndex
+Ğàçíèöà äàò:15.10.2015 15:00:00
+02DateDec_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàçíèöà äàò®active_ind_comport®Driver_PrIndex:TC215.inf®Äàòà ïğèáîğà®-1®15.10.2015 15:00:00®clBtnHighlight®0®118®14®®®®
+03TFormulLab
+DateDec_PrIndex®Replace(-®.)
+03TFormulLab
+DateDec_PrIndex®Replace(,® )
+03TFormulLab
+DateDec_PrIndex®FormatDateTime(dd.mm.yyyy hh)
+03TFormulLab
+DateDec_PrIndex®SetChenjPer([DateDec_PrIndex]:00:00)
+07TItems
+List_PrIndex
+-----:Ğåàëüíûå çíà÷åíèÿ:-----
+02RealTime_PrIndex®9®-1®2®clWindowText®0®0®0®0®-----:Ğåàëüíûå çíà÷åíèÿ®nill®nill®nill®-1®-----®clLime®0®20®14®®®®
+07TItems
+List_PrIndex
+Âğåìÿ ïîñëå îòâåòà:56865
+02TimeOut_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïîñëå îòâåòà®nill®nill®nill®-1®56865®clBtnHighlight®0®35®14®®®®
+03TFormulLab
+TimeOut_PrIndex®RunMod(prXX®PrIndex®\pr\TS215\TS215_GSM.mod)
+04TFormulLab2
+totalsecond
+TimeOut_PrIndex®99
+07TItems
+List_PrIndex
+Ñîñòîÿíèå îòâåòà:1
+02Otvet_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîñòîÿíèå îòâåòà®active_ind_comport®Driver_PrIndex:TC215.inf®Ñåğèéíûé íîìåğ®-1®1®clBtnHighlight®-1®7®14®®®®
+03TFormulLab
+Otvet_PrIndex®RunMod(prXX®PrIndex®\pr\TS215\TS215Real.mod)
+03TFormulLab
+Otvet_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Äàòà&Âğåìÿ:15.10.2015 15:23:54
+02DeteTimePR_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà&Âğåìÿ®active_ind_comport®Driver_PrIndex:TC215.inf®Äàòà ïğèáîğà®-1®15.10.2015 15:23:54®clYellow®0®118®14®®®®
+03TFormulLab
+DeteTimePR_PrIndex®Replace(-®.)
+03TFormulLab
+DeteTimePR_PrIndex®Replace(,® )
+03TFormulLab
+DeteTimePR_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Vc:10711.3207*m3
+02Vc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Vc®active_ind_comport®Driver_PrIndex:TC215.inf®Vc_real®-1®10711.3207*m3®clBtnHighlight®0®91®14®®®®
+07TItems
+List_PrIndex
+Qp:#0004
+02Qp_PrIndex®9®-1®2®clWindowText®0®0®0®0®Qp®active_ind_comport®Driver_PrIndex:TC215.inf®Qp_real®-1®#0004®clBtnHighlight®0®37®14®®®®
+07TItems
+List_PrIndex
+Vp:9953.7400*m3
+02Vp_PrIndex®9®-1®2®clWindowText®0®0®0®0®Vp®active_ind_comport®Driver_PrIndex:TC215.inf®Vp_real®-1®9953.7400*m3®clBtnHighlight®0®84®14®®®®
+07TItems
+List_PrIndex
+P:1,01325
+02Pek_PrIndex®9®-1®2®clWindowText®0®0®0®0®P®active_ind_comport®Driver_PrIndex:TC215.inf®P_real®-1®1,01325®clBtnHighlight®0®46®14®®®®
+03TFormulLab
+Pek_PrIndex®this number
+07TItems
+List_PrIndex
+T:9,20
+02Tek_PrIndex®9®-1®2®clWindowText®0®0®0®0®T®active_ind_comport®Driver_PrIndex:TC215.inf®T_real®-1®9,20®clBtnHighlight®0®25®14®®®®
+03TFormulLab
+Tek_PrIndex®this number
+03TFormulLab
+Tek_PrIndex®RunFormChenj([Tek_PrIndex]-273.15)
+03TFormulLab
+Tek_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+Qc:#0004
+02Qc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Qc®active_ind_comport®Driver_PrIndex:TC215.inf®Qc_real®-1®#0004®clBtnHighlight®0®37®14®®®®

@@ -1,0 +1,208 @@
+02Send_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®50 48 49 52 45 49 48 45 48 57 44 49 48®clBtnHighlight®0®
+04TFormulLab2
+StrToDec([DateChag_PrIndex:7 8 9 10]-[DateChag_PrIndex:4 5]-[DateChag_PrIndex:1 2],[DateChag_PrIndex:12 13])
+Send_PrIndex®19
+02Driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®EK260.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+Driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+Send_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+
+11TComADR
+active_ind_comport
+0
+2
+
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®14®23®312®522®-1®
+07TItems
+List_PrIndex
+COM:ÓÏÍ Ãðÿçíóøèíñêàÿ ñ.í
+NameObj_PrIndex
+02NameObj_PrIndex®9®-1®2®clWindowText®0®0®0®0®active_ind_comport®nill®nill®nill®-1®Íàçâàíèå®clAqua®0®
+07TItems
+List_PrIndex
+Ñîñòîÿíèå îòâåòà àðõ:1
+Otvetarh_PrIndex
+02Otvetarh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîñòîÿíèå îòâåòà àðõ®active_ind_comport®Driver_PrIndex:EK260.inf®Äàòà ñòðîêè àðõèâà®-1®1®clBtnHighlight®-1®
+03TFormulLab
+Otvetarh_PrIndex®RunMod(prXX®PrIndex®\pr\EK260\EK260.mod)
+03TFormulLab
+Otvetarh_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Òàáëèöà:Gaz..Gaz18_2
+table_PrIndex
+02table_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òàáëèöà®nill®nill®nill®-1®Gaz..Test®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Ñåðèéíèê:40305013
+Serial_PrIndex
+02Serial_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñåðèéíèê®active_ind_comport®Driver_PrIndex:EK260.inf®Ñåðèéíûé íîìåð®-1®40305013®clFuchsia®0®
+07TItems
+List_PrIndex
+Íà÷àòü ñ äàòû:09.10.2014 10:00:00
+DateChag_PrIndex
+02DateChag_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íà÷àòü ñ äàòû®nill®nill®nill®-1®09.10.2014 10:00:00®clSilver®0®
+03TFormulLab
+DateChag_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Äàòà ñòðîêè àðõèâà:09.10.2014 10:00:00
+DatePrib_PrIndex
+02DatePrib_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà ñòðîêè àðõèâà®active_ind_comport®Driver_PrIndex:EK260.inf®Äàòà ñòðîêè àðõèâà®-1®09.10.2014 10:00:00®clLime®0®
+03TFormulLab
+DatePrib_PrIndex®Replace(-®.)
+03TFormulLab
+DatePrib_PrIndex®Replace(,® )
+03TFormulLab
+DatePrib_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm)
+03TFormulLab
+DatePrib_PrIndex®SetChenjPer([DatePrib_PrIndex]:00)
+07TItems
+List_PrIndex
+Vñò.îáù:1815428.0142
+VstOb_PrIndex
+02VstOb_PrIndex®9®-1®2®clWindowText®0®0®0®0®Vñò.îáù®active_ind_comport®Driver_PrIndex:EK260.inf®Vñò.îáù®-1®1815428.0142®clOlive®0®
+07TItems
+List_PrIndex
+V ñò. íåâîçì:1813857.93
+VstNev_PrIndex
+02VstNev_PrIndex®9®-1®2®clWindowText®0®0®0®0®V ñò. íåâîçì®active_ind_comport®Driver_PrIndex:EK260.inf®V ñò. íåâîçì®-1®1813857.93®clTeal®0®
+07TItems
+List_PrIndex
+V ðàá. îáù:447977
+VrabOb_PrIndex
+02VrabOb_PrIndex®9®-1®2®clWindowText®0®0®0®0®V ðàá. îáù®active_ind_comport®Driver_PrIndex:EK260.inf®V ðàá. îáù®-1®447977®clOlive®0®
+07TItems
+List_PrIndex
+V ðàá. íåâîçì:2046988
+VrabNev_PrIndex
+02VrabNev_PrIndex®9®-1®2®clWindowText®0®0®0®0®V ðàá. íåâîçì®active_ind_comport®Driver_PrIndex:EK260.inf®V ðàá. íåâîçì®-1®2046988®clTeal®0®
+07TItems
+List_PrIndex
+Ð áàð:3.57776
+Pbar_PrIndex
+02Pbar_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ð áàð®active_ind_comport®Driver_PrIndex:EK260.inf®Ð áàð®-1®3.57776®clSilver®0®
+07TItems
+List_PrIndex
+Ò Ñ:1.97
+Tc_PrIndex
+02Tc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ò Ñ®active_ind_comport®Driver_PrIndex:EK260.inf®Ò Ñ®-1®1.97®clRed®0®
+07TItems
+List_PrIndex
+Ðàçíèöà äàò:09.10.2014 10:00:00
+DateDec_PrIndex
+02DateDec_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ðàçíèöà äàò®active_ind_comport®Driver_PrIndex:EK260.inf®Äàòà ïðèáîðà®-1®09.10.2014 10:00:00®clBtnHighlight®0®
+03TFormulLab
+DateDec_PrIndex®Replace(-®.)
+03TFormulLab
+DateDec_PrIndex®Replace(,® )
+03TFormulLab
+DateDec_PrIndex®FormatDateTime(dd.mm.yyyy hh)
+03TFormulLab
+DateDec_PrIndex®SetChenjPer([DateDec_PrIndex]:00:00)
+07TItems
+List_PrIndex
+-----:Ðåàëüíûå çíà÷åíèÿ:-----
+RealTime_PrIndex
+02RealTime_PrIndex®9®-1®2®clWindowText®0®0®0®0®-----:Ðåàëüíûå çíà÷åíèÿ®nill®nill®nill®-1®-----®clLime®0®
+07TItems
+List_PrIndex
+Âðåìÿ ïîñëå îòâåòà:17
+TimeOut_PrIndex
+02TimeOut_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âðåìÿ ïîñëå îòâåòà®nill®nill®nill®-1®17®clBtnHighlight®0®
+04TFormulLab2
+totalsecond
+TimeOut_PrIndex®99
+07TItems
+List_PrIndex
+Ñîñòîÿíèå îòâåòà:1
+Otvet_PrIndex
+02Otvet_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîñòîÿíèå îòâåòà®active_ind_comport®Driver_PrIndex:EK260.inf®Ñåðèéíûé íîìåð®-1®1®clBtnHighlight®-1®
+03TFormulLab
+Otvet_PrIndex®RunMod(prXX®PrIndex®\pr\EK260\EK260Real.mod)
+03TFormulLab
+Otvet_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Äàòà&Âðåìÿ:09.10.2014 10:25:40
+DeteTimePR_PrIndex
+02DeteTimePR_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà&Âðåìÿ®active_ind_comport®Driver_PrIndex:EK260.inf®Äàòà ïðèáîðà®-1®09.10.2014 10:25:40®clYellow®0®
+03TFormulLab
+DeteTimePR_PrIndex®Replace(-®.)
+03TFormulLab
+DeteTimePR_PrIndex®Replace(,® )
+03TFormulLab
+DeteTimePR_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Vc:1815428.0142*m3
+Vc_PrIndex
+02Vc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Vc®active_ind_comport®Driver_PrIndex:EK260.inf®Vc_real®-1®1815428.0142*m3®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Qp:0*m3|>
+Qp_PrIndex
+02Qp_PrIndex®9®-1®2®clWindowText®0®0®0®0®Qp®active_ind_comport®Driver_PrIndex:EK260.inf®Qp_real®-1®0*m3|>®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Vp:2047513*m3
+Vp_PrIndex
+02Vp_PrIndex®9®-1®2®clWindowText®0®0®0®0®Vp®active_ind_comport®Driver_PrIndex:EK260.inf®Vp_real®-1®2047513*m3®clBtnHighlight®0®
+07TItems
+List_PrIndex
+P:3,6071
+Pek_PrIndex
+02Pek_PrIndex®9®-1®2®clWindowText®0®0®0®0®P®active_ind_comport®Driver_PrIndex:EK260.inf®P_real®-1®3,6071®clBtnHighlight®0®
+03TFormulLab
+Pek_PrIndex®this number
+07TItems
+List_PrIndex
+T:5,58
+Tek_PrIndex
+02Tek_PrIndex®9®-1®2®clWindowText®0®0®0®0®T®active_ind_comport®Driver_PrIndex:EK260.inf®T_real®-1®5,58®clBtnHighlight®0®
+03TFormulLab
+Tek_PrIndex®this number
+03TFormulLab
+Tek_PrIndex®RunFormChenj([Tek_PrIndex]-273.15)
+03TFormulLab
+Tek_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+Qc:0*m3|>
+Qc_PrIndex
+02Qc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Qc®active_ind_comport®Driver_PrIndex:EK260.inf®Qc_real®-1®0*m3|>®clBtnHighlight®0®

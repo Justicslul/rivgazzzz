@@ -1,0 +1,184 @@
+02Hour_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®49 53®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Hour_PrIndex®StrToDec([Hour_PrIndex])
+02Year_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®50 48 49 53®clBtnHighlight®0®68®14®®®®
+03TFormulLab
+Year_PrIndex®StrToDec([Year_PrIndex])
+02Month_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®49 48®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Month_PrIndex®StrToDec([Month_PrIndex])
+02Day_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®49 51®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Day_PrIndex®StrToDec([Day_PrIndex])
+02Driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®SPG761.inf®clBtnHighlight®0®60®14®®®®
+10TCodrv
+active_ind_comport
+Driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+Day_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+Month_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+Year_PrIndex
+11TComADR
+active_ind_comport
+0
+3
+Hour_PrIndex
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®16®24®259®390®-1®®
+07TItems
+List_PrIndex
+Тип прибора:761.2v01-A374	 
+02Type_PrIndex®9®-1®2®clWindowText®0®0®0®0®Тип прибора®active_ind_comport®Driver_PrIndex:SPG761.inf®Тип и версия прибора®-1®761.2v01-A374	 ®clBtnHighlight®0®124®14®®®®
+07TItems
+List_PrIndex
+Дата и время:13.10.2015 15:38:03
+02Date_Real_PrIndex®9®-1®2®clRed®0®0®0®0®Дата и время®active_ind_comport®Driver_PrIndex:SPG761.inf®Дата и время®-1®13.10.2015 15:38:03®clYellow®0®118®14®®®®
+03TFormulLab
+Date_Real_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+База и таблица:Gaz..Gaz36_7
+02table_PrIndex®9®-1®2®clBtnFace®0®0®0®0®База и таблица®nill®nill®nill®-1®Gaz..Gaz36_7®clTeal®0®74®14®®®®
+07TItems
+List_PrIndex
+Начать опрос:13.10.2015 15:00:00
+02DateTimeStart_PrIndex®9®-1®2®clBackground®0®0®0®0®Начать опрос®nill®nill®nill®-1®13.10.2015 15:00:00®clActiveBorder®0®118®14®®®®
+03TFormulLab
+DateTimeStart_PrIndex®FormatDateTime(dd.mm.yyyy hh)
+03TFormulLab
+DateTimeStart_PrIndex®SetChenjPer([DateTimeStart_PrIndex]:00:00)
+07TItems
+List_PrIndex
+------Архивные значения часовые:----
+02Arh_ch_PrIndex®9®-1®2®clWindowText®0®0®0®0®------Архивные значения часовые®nill®nill®nill®-1®----®clHighlight®0®16®14®®®®
+07TItems
+List_PrIndex
+Ответ прибора часовой архив:1
+02Otvet_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ответ прибора часовой архив®active_ind_comport®Driver_PrIndex:SPG761.inf®Дата и время архив час®-1®1®clBtnHighlight®-1®7®14®®®®
+03TFormulLab
+Otvet_ch_arh_PrIndex®RunMod(prXX®PrIndex®\pr\SPG761\SPG761.mod)
+03TFormulLab
+Otvet_ch_arh_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Время после ответа часового архива:3
+02TimeOut_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Время после ответа часового архива®nill®nill®nill®-1®3®clBtnHighlight®0®7®14®®®®
+04TFormulLab2
+totalsecond
+TimeOut_ch_arh_PrIndex®99
+07TItems
+List_PrIndex
+Дата часового архива:13.10.2015 15:00:00
+02Date_ch_Arc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Дата часового архива®active_ind_comport®Driver_PrIndex:SPG761.inf®Дата и время архив час®-1®13.10.2015 15:00:00®clBtnHighlight®0®118®14®®®®
+03TFormulLab
+Date_ch_Arc_PrIndex®Replace(®.)
+03TFormulLab
+Date_ch_Arc_PrIndex®Replace(®:)
+07TItems
+List_PrIndex
+Перепад час:39.704
+02dP_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Перепад час®active_ind_comport®Driver_PrIndex:SPG761.inf®Перепад архив час®-1®39.704®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Температура час:5.3214
+02T_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура час®active_ind_comport®Driver_PrIndex:SPG761.inf®Температура архив час®-1®5.3214®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Давление час:4.9958
+02P_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление час®active_ind_comport®Driver_PrIndex:SPG761.inf®Давление архив час®-1®4.9958®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Расход при СУ час:27379.58
+02V_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход при СУ час®active_ind_comport®Driver_PrIndex:SPG761.inf®Расход СУ архив час®-1®27379.58®clBtnHighlight®0®53®14®®®®
+07TItems
+List_PrIndex
+Расход при РУ час:450.55
+02Vp_ch_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход при РУ час®active_ind_comport®Driver_PrIndex:SPG761.inf®Расход РУ архив час®-1®450.55®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Разница дат:13.10.2015 15:00:00
+02DateDec_ch_PrIndex®9®-1®2®clWindowText®0®0®0®0®Разница дат®active_ind_comport®Driver_PrIndex:SPG761.inf®Дата и время®-1®13.10.2015 15:00:00®clBtnHighlight®0®118®14®®®®
+03TFormulLab
+DateDec_ch_PrIndex®FormatDateTime(dd.mm.yyyy hh)
+03TFormulLab
+DateDec_ch_PrIndex®SetChenjPer([DateDec_ch_PrIndex]:00:00)
+07TItems
+List_PrIndex
+------Архивные значения суточные:----
+02Arh_day_PrIndex®9®-1®2®clWindowText®0®0®0®0®------Архивные значения суточные®nill®nill®nill®-1®----®clHotLight®0®16®14®®®®
+07TItems
+List_PrIndex
+Ответ прибора суточный архив:1
+02Otvet_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ответ прибора суточный архив®active_ind_comport®Driver_PrIndex:SPG761.inf®Дата и время архив сутки®-1®1®clBtnHighlight®-1®7®14®®®®
+03TFormulLab
+Otvet_day_arh_PrIndex®RunMod(prXX®PrIndex®\pr\SPG761\SPG761_DAY.mod)
+03TFormulLab
+Otvet_day_arh_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Время после ответа суточного архива:16
+02TimeOut_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Время после ответа суточного архива®nill®nill®nill®-1®16®clBtnHighlight®0®14®14®®®®
+04TFormulLab2
+totalsecond
+TimeOut_day_arh_PrIndex®99
+07TItems
+List_PrIndex
+Дата суточного архива:13.10.2015 10:00:00
+02Date_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Дата суточного архива®active_ind_comport®Driver_PrIndex:SPG761.inf®Дата и время архив сутки®-1®13.10.2015 10:00:00®clBtnHighlight®0®118®14®®®®
+03TFormulLab
+Date_day_arh_PrIndex®Replace(®.)
+03TFormulLab
+Date_day_arh_PrIndex®Replace(®.)
+03TFormulLab
+Date_day_arh_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Перепад суточный:39.979
+02dP_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Перепад суточный®active_ind_comport®Driver_PrIndex:SPG761.inf®Перепад архив сутки®-1®39.979®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Температура суточная:4.8487
+02T_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура суточная®active_ind_comport®Driver_PrIndex:SPG761.inf®Температура архив сутки®-1®4.8487®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Давление суточное:4.9715
+02P_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление суточное®active_ind_comport®Driver_PrIndex:SPG761.inf®Давление архив сутки®-1®4.9715®clBtnHighlight®0®39®14®®®®
+07TItems
+List_PrIndex
+Расход при СУ суточный:658395.66
+02V_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход при СУ суточный®active_ind_comport®Driver_PrIndex:SPG761.inf®Расход СУ архив сутки®-1®658395.66®clBtnHighlight®0®60®14®®®®
+07TItems
+List_PrIndex
+Расход при РУ суточный:10865.86
+02Vp_day_arh_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход при РУ суточный®active_ind_comport®Driver_PrIndex:SPG761.inf®Расход РУ архив сутки®-1®10865.86®clBtnHighlight®0®53®14®®®®

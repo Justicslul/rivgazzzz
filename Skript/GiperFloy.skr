@@ -1,0 +1,248 @@
+02SYNUM_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®,5 0®clBtnHighlight®0®
+03TFormulLab
+SYNUM_PrIndex®ByterReplChange
+02CHNUM_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®38 0®clBtnHighlight®0®
+03TFormulLab
+CHNUM_PrIndex®ByterReplChange
+02ADR_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®4®clBtnHighlight®0®
+02DRIVER_PrIndex®9®-1®4®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®Giprflou_run.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+DRIVER_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+ADR_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+CHNUM_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+SYNUM_PrIndex
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®11®27®279®517®-1®
+07TItems
+List_PrIndex
+COM:Степное СПХГ Giper
+COM_Name_PrIndex
+02COM_Name_PrIndex®9®-1®2®clWindowText®0®0®0®0®COM®nill®nill®nill®-1®Степное СПХГ Giper®clAqua®0®
+07TItems
+List_PrIndex
+Таблица SQL:GAZ..Gaz21_2
+Base_PrIndex
+02Base_PrIndex®9®-1®2®clWindowText®0®0®0®0®Таблица SQL®nill®nill®nill®-1®GAZ..Gaz21_2®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Начать от даты:22.08.2014 14:00:00
+DateStart_PrIndex
+02DateStart_PrIndex®9®-1®2®clWindowText®0®0®0®0®Начать от даты®nill®nill®nill®-1®22.08.2014 14:00:00®clYellow®0®
+07TItems
+List_PrIndex
+----:Реальные значения:----
+Real_PrIndex
+02Real_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®Реальные значения:----®clRed®0®
+07TItems
+List_PrIndex
+Время последнего ответа:1
+TimeOut_PrIndex
+02TimeOut_PrIndex®9®-1®2®clWindowText®0®0®0®0®Время последнего ответа®nill®nill®nill®-1®1®clBtnHighlight®0®
+04TFormulLab2
+totalsecond
+TimeOut_PrIndex®99
+07TItems
+List_PrIndex
+ответ от прибора:1
+OtvetReal_PrIndex
+02OtvetReal_PrIndex®9®-1®2®clWindowText®0®0®0®0®ответ от прибора®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Текущее время®-1®1®clBtnHighlight®-1®
+03TFormulLab
+OtvetReal_PrIndex®RunMod(prXX®PrIndex®\pr\GIPERFLOU\GiperReal.mod)
+03TFormulLab
+OtvetReal_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Перепад давления (dp):260,581
+RPerepad_PrIndex
+02RPerepad_PrIndex®9®-1®2®clWindowText®0®0®0®0®Перепад давления (dp)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Перепад давления (dp)®-1®260,581®clBtnHighlight®0®
+03TFormulLab
+RPerepad_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Давление (P):36,836
+RDavlenie_PrIndex
+02RDavlenie_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление (P)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Давление (P)®-1®36,836®clBtnHighlight®0®
+03TFormulLab
+RDavlenie_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Температура (T):21,545
+RTemperetura_PrIndex
+02RTemperetura_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура (T)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Температура (T)®-1®21,545®clBtnHighlight®0®
+03TFormulLab
+RTemperetura_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Мгновенный расход (Q):5485,685
+RRashod_PrIndex
+02RRashod_PrIndex®9®-1®2®clWindowText®0®0®0®0®Мгновенный расход (Q)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Мгновенный расход (Q)®-1®5485,685®clBtnHighlight®0®
+03TFormulLab
+RRashod_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Текущее время:31.10.2014 14:22:15
+RDateTime_PrIndex
+02RDateTime_PrIndex®9®-1®2®clWindowText®0®0®0®0®Текущее время®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Текущее время®-1®31.10.2014 14:22:15®clBtnHighlight®0®
+03TFormulLab
+RDateTime_PrIndex®DateEncode(1997/1/1/0/0/0/0)
+07TItems
+List_PrIndex
+Старшая часть нак расх.:366980
+RSTNakrash_PrIndex
+02RSTNakrash_PrIndex®9®-1®2®clWindowText®0®0®0®0®Старшая часть нак расх.®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Старшая часть нак расх.®-1®366980®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Младшая часть нак расх.:18901497
+RMLNakrash_PrIndex
+02RMLNakrash_PrIndex®9®-1®2®clWindowText®0®0®0®0®Младшая часть нак расх.®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Младшая часть нак расх.®-1®18901497®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Коммерческий час:10
+RKomChas_PrIndex
+02RKomChas_PrIndex®9®-1®2®clWindowText®0®0®0®0®Коммерческий час®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Коммерческий час®-1®10®clBtnHighlight®0®
+07TItems
+List_PrIndex
+----:Архивные значения часовые----
+ArchCH_PrIndex
+02ArchCH_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®Архивные значения часовые----®clFuchsia®0®
+07TItems
+List_PrIndex
+ответ от прибора:1
+CHOtvet_PrIndex
+02CHOtvet_PrIndex®9®-1®2®clWindowText®0®0®0®0®ответ от прибора®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Дата и время часовки®-1®1®clBtnHighlight®-1®
+03TFormulLab
+CHOtvet_PrIndex®RunMod(prXX®PrIndex®\pr\GIPERFLOU\GiperAR_CH.mod)
+03TFormulLab
+CHOtvet_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Дата и время:29.10.2014 23:00:00
+CHDateTime_PrIndex
+02CHDateTime_PrIndex®9®-1®2®clWindowText®0®0®0®0®Дата и время®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Дата и время часовки®-1®29.10.2014 23:00:00®clBtnHighlight®0®
+03TFormulLab
+CHDateTime_PrIndex®DateEncode(1997/1/1/0/0/0/0)
+07TItems
+List_PrIndex
+Перепад давления (dp):262,398
+CHPerepad_PrIndex
+02CHPerepad_PrIndex®9®-1®2®clWindowText®0®0®0®0®Перепад давления (dp)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднечасовой перепад(dp)®-1®262,398®clBtnHighlight®0®
+03TFormulLab
+CHPerepad_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Давление (P):38,317
+CHDavlenie_PrIndex
+02CHDavlenie_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление (P)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднечасовое давление (P)®-1®38,317®clBtnHighlight®0®
+03TFormulLab
+CHDavlenie_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Температура (T):32,902
+CHTemperetura_PrIndex
+02CHTemperetura_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура (T)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднечасовая температура (T)®-1®32,902®clBtnHighlight®0®
+03TFormulLab
+CHTemperetura_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Мгновенный расход (Q):5161,131
+CHRashod_PrIndex
+02CHRashod_PrIndex®9®-1®2®clWindowText®0®0®0®0®Мгновенный расход (Q)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднечасовой расход (Q)®-1®5161,131®clBtnHighlight®0®
+03TFormulLab
+CHRashod_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Номер записи:37
+CHNUM_ZAP_PrIndex
+02CHNUM_ZAP_PrIndex®9®-1®2®clWindowText®0®0®0®0®Номер записи®nill®nill®nill®-1®37®clBtnHighlight®0®
+07TItems
+List_PrIndex
+----:Архивные значения суточные:----
+ArchCY_PrIndex
+02ArchCY_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®Архивные значения суточные:----®clLime®0®
+07TItems
+List_PrIndex
+ответ от прибора:1
+SYOtvet_PrIndex
+02SYOtvet_PrIndex®9®-1®2®clWindowText®0®0®0®0®ответ от прибора®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Дата и время суток®-1®1®clBtnHighlight®-1®
+03TFormulLab
+SYOtvet_PrIndex®RunMod(prXX®PrIndex®\pr\GIPERFLOU\GiperAR_CY.mod)
+03TFormulLab
+SYOtvet_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Дата и время:12.02.2014 10:00:00
+SYDateTime_PrIndex
+02SYDateTime_PrIndex®9®-1®2®clWindowText®0®0®0®0®Дата и время®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Дата и время суток®-1®12.02.2014 10:00:00®clBtnHighlight®0®
+03TFormulLab
+SYDateTime_PrIndex®DateEncode(1997/1/1/0/0/0/0)
+07TItems
+List_PrIndex
+Перепад давления (dp):-0,275
+SYPerepad_PrIndex
+02SYPerepad_PrIndex®9®-1®2®clWindowText®0®0®0®0®Перепад давления (dp)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднесуточный перепад(dp)®-1®-0,275®clBtnHighlight®0®
+03TFormulLab
+SYPerepad_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Давление (P):43,523
+SYDavlenie_PrIndex
+02SYDavlenie_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление (P)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднесуточный давление (P)®-1®43,523®clBtnHighlight®0®
+03TFormulLab
+SYDavlenie_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Температура (T):-3,021
+SYTemperetura_PrIndex
+02SYTemperetura_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура (T)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднесуточный температура (T)®-1®-3,021®clBtnHighlight®0®
+03TFormulLab
+SYTemperetura_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Мгновенный расход (Q):0,000
+SYRashod_PrIndex
+02SYRashod_PrIndex®9®-1®2®clWindowText®0®0®0®0®Мгновенный расход (Q)®active_ind_comport®DRIVER_PrIndex:Giprflou_run.inf®Среднесуточный расход (Q)®-1®0,000®clBtnHighlight®0®
+03TFormulLab
+SYRashod_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Номер записи:,5
+SYNUM_ZAP_PrIndex
+02SYNUM_ZAP_PrIndex®9®-1®2®clWindowText®0®0®0®0®Номер записи®nill®nill®nill®-1®,5®clBtnHighlight®0®

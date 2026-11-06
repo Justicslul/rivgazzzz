@@ -1,0 +1,339 @@
+02RI_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®1®clBtnHighlight®0®
+02DateStArh_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®10 12 14®clBtnHighlight®0®
+03TFormulLab
+DateStArh_PrIndex®Replace(,® )
+03TFormulLab
+DateStArh_PrIndex®Replace(.® )
+02adress_PrIndex®9®-1®5®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®11®clBtnHighlight®0®
+02driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®описание®nill®nill®nill®-1®Irvis.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+adress_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+DateStArh_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+RI_PrIndex
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®12®292®284®196®-1®
+07TItems
+List_PrIndex
+COM (42099):НСП22 на ровное
+COM_Name_PrIndex
+02COM_Name_PrIndex®9®-1®2®clWindowText®0®0®0®0®COM (42099)®nill®nill®nill®-1®НСП22 на ровное®clAqua®0®
+07TItems
+List_PrIndex
+----:реальные значения:----
+Real_PrIndex
+02Real_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®реальные значения:----®clRed®0®
+07TItems
+List_PrIndex
+Время после ответа:7
+TimeOutReal_PrIndex
+02TimeOutReal_PrIndex®9®-1®2®clWindowText®0®0®0®0®Время после ответа®nill®nill®nill®-1®7®clYellow®0®
+04TFormulLab2
+totalsecond
+TimeOutReal_PrIndex®99
+07TItems
+List_PrIndex
+Состояние ответа:1
+OtvetPrReal_PrIndex
+02OtvetPrReal_PrIndex®9®-1®2®clWindowText®0®0®0®0®Состояние ответа®active_ind_comport®driver_PrIndex:Irvis.inf®Дата и время®-1®1®clBtnHighlight®-1®
+03TFormulLab
+OtvetPrReal_PrIndex®RunMod(prXX®PrIndex®\pr\IRVIS\IRVISReal.mod)
+03TFormulLab
+OtvetPrReal_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Дата&Время прибора:12.12.14 13:48:00
+RDTime_PrIndex
+02RDTime_PrIndex®9®-1®2®clWindowText®0®0®0®0®Дата&Время прибора®active_ind_comport®driver_PrIndex:Irvis.inf®Дата и время®-1®12.12.14 13:48:00®clBtnHighlight®0®
+03TFormulLab
+RDTime_PrIndex®FormatDateTime(dd.mm.yy hh:mm:ss)
+07TItems
+List_PrIndex
+Время наработки:11742
+TNar_PrIndex
+02TNar_PrIndex®9®-1®2®clWindowText®0®0®0®0®Время наработки®active_ind_comport®driver_PrIndex:Irvis.inf®Время наработки®-1®11742®clBtnHighlight®0®
+07TItems
+List_PrIndex
+т.з. накоп. объема при н/у:8423430
+Vn_PrIndex
+02Vn_PrIndex®9®-1®2®clWindowText®0®0®0®0®т.з. накоп. объема при н/у®active_ind_comport®driver_PrIndex:Irvis.inf®текущее значение накопленного объема при нормальных условиях®-1®8423430®clBtnHighlight®0®
+07TItems
+List_PrIndex
+т.з. расхода при н/у:1347,48
+Qn_PrIndex
+02Qn_PrIndex®9®-1®2®clWindowText®0®0®0®0®т.з. расхода при н/у®active_ind_comport®driver_PrIndex:Irvis.inf®текущее значение расхода при нормальных условиях®-1®1347,48®clBtnHighlight®0®
+03TFormulLab
+Qn_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+т. з. давления:6,70
+Pkp_PrIndex
+02Pkp_PrIndex®9®-1®2®clWindowText®0®0®0®0®т. з. давления®active_ind_comport®driver_PrIndex:Irvis.inf®текущее значение давления®-1®6,70®clBtnHighlight®0®
+03TFormulLab
+Pkp_PrIndex®RunFormChenj([Pkp_PrIndex]*0,01)
+03TFormulLab
+Pkp_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+т. з. температуры:4,24
+Temper_PrIndex
+02Temper_PrIndex®9®-1®2®clWindowText®0®0®0®0®т. з. температуры®active_ind_comport®driver_PrIndex:Irvis.inf®текущее значение температуры®-1®4,24®clBtnHighlight®0®
+03TFormulLab
+Temper_PrIndex®RoundEx(2)
+07TItems
+List_PrIndex
+Серийный номер:14168
+Serial_PrIndex
+02Serial_PrIndex®9®-1®2®clWindowText®0®0®0®0®Серийный номер®active_ind_comport®driver_PrIndex:Irvis.inf®Серийный номер®-1®14168®clBtnHighlight®0®
+07TItems
+List_PrIndex
+действующее знач. отчетного часа:10
+Rashhour_PrIndex
+02Rashhour_PrIndex®9®-1®2®clWindowText®0®0®0®0®действующее знач. отчетного часа®active_ind_comport®driver_PrIndex:Irvis.inf®действующее значение отчетного часа®-1®10®clBtnHighlight®0®
+07TItems
+List_PrIndex
+---:Архивные значения:---
+Arch_PrIndex
+02Arch_PrIndex®9®-1®2®clWindowText®0®0®0®0®---®nill®nill®nill®-1®Архивные значения:---®clRed®0®
+07TItems
+List_PrIndex
+Тип Ирвиса:Ri5
+TipeIrvis_PrIndex
+02TipeIrvis_PrIndex®9®-1®2®clWindowText®0®0®0®0®Тип Ирвиса®nill®nill®nill®-1®Ri5®clGreen®0®
+07TItems
+List_PrIndex
+Таблица:Gaz..Gaz23_5
+Table_PrIndex
+02Table_PrIndex®9®-1®2®clWindowText®0®0®0®0®Таблица®nill®nill®nill®-1®Gaz..Gaz23_5®clTeal®0®
+07TItems
+List_PrIndex
+Разница дат:2
+RAZDAT_PrIndex
+02RAZDAT_PrIndex®9®-1®2®clWindowText®0®0®0®0®Разница дат®nill®nill®nill®-1®2®clBtnHighlight®0®
+04TFormulLab2
+DateDecDate([RDTime_PrIndex]®[DateAndTime_Driver_PrIndex]®d);
+RAZDAT_PrIndex®4
+07TItems
+List_PrIndex
+Вр. после отв. архива:4
+TimeOutArch_PrIndex
+02TimeOutArch_PrIndex®9®-1®2®clWindowText®0®0®0®0®Вр. после отв. архива®nill®nill®nill®-1®4®clGradientActiveCaption®0®
+04TFormulLab2
+totalsecond
+TimeOutArch_PrIndex®99
+07TItems
+List_PrIndex
+Сост. отв. архив:1
+OtvetPr_PrIndex
+02OtvetPr_PrIndex®9®-1®2®clWindowText®0®0®0®0®Сост. отв. архив®active_ind_comport®driver_PrIndex:Irvis.inf®Вложенных часов®-1®1®clGradientInactiveCaption®-1®
+03TFormulLab
+OtvetPr_PrIndex®RunMod(prXX®PrIndex®\pr\IRVIS\IRVISArch.mod)
+03TFormulLab
+OtvetPr_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Начать опрос:10.12.2014
+DateAndTime_Driver_PrIndex
+02DateAndTime_Driver_PrIndex®9®-1®2®clWindowText®0®0®0®0®Начать опрос®nill®nill®nill®-1®10.12.2014®clGray®0®
+03TFormulLab
+DateAndTime_Driver_PrIndex®CaptionTime(dd.mm.yyyy)
+07TItems
+List_PrIndex
+Вложенных часов:3
+Vlojch_PrIndex
+02Vlojch_PrIndex®9®-1®2®clRed®0®0®0®0®Вложенных часов®active_ind_comport®driver_PrIndex:Irvis.inf®Вложенных часов®-1®3®clYellow®0®
+07TItems
+List_PrIndex
+Запрос дрв. next:1
+Next_Real_PrIndex
+02Next_Real_PrIndex®9®-1®2®clWindowText®0®0®0®0®Запрос дрв. next®nill®nill®nill®-1®1®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Задержка ошибки:21
+TimeOut_Error_PrIndex
+02TimeOut_Error_PrIndex®9®-1®2®clWindowText®0®0®0®0®Задержка ошибки®nill®nill®nill®-1®21®clBtnHighlight®0®
+04TFormulLab2
+totalsecond
+TimeOut_Error_PrIndex®99
+07TItems
+List_PrIndex
+Дата0 архива прибора:10.12.14 11:00:00
+DatePr0SQL_PrIndex
+02DatePr0SQL_PrIndex®9®-1®2®clYellow®0®0®0®0®Дата0 архива прибора®active_ind_comport®driver_PrIndex:Irvis.inf®Дата0 архива прибора®-1®10.12.14 11:00:00®clRed®0®
+03TFormulLab
+DatePr0SQL_PrIndex®FormatDateTime(dd.mm.yy hh:mm:ss)
+07TItems
+List_PrIndex
+Объем0 при с.у.:8351328
+Vsy0_PrIndex
+02Vsy0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Объем0 при с.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Объем0 при с.у.®-1®8351328®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Объем0 при р.у.:1359624
+Vry0_PrIndex
+02Vry0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Объем0 при р.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Объем0 при р.у.®-1®1359624®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Расход0 при  с.у.:1479
+Qsy0_PrIndex
+02Qsy0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход0 при  с.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Расход0 при  с.у.®-1®1479®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Расход0 при р.у.:227
+Qry0_PrIndex
+02Qry0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход0 при р.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Расход0 при р.у.®-1®227®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Давление0:6,219
+PSQL0_PrIndex
+02PSQL0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление0®active_ind_comport®driver_PrIndex:Irvis.inf®Давление0®-1®6,219®clBtnHighlight®0®
+03TFormulLab
+PSQL0_PrIndex®RunFormChenj([PSQL0_PrIndex]*0,01)
+03TFormulLab
+PSQL0_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Температура0:3,578
+T0_PrIndex
+02T0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура0®active_ind_comport®driver_PrIndex:Irvis.inf®Температура0®-1®3,578®clBtnHighlight®0®
+03TFormulLab
+T0_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Запись0 SQL:10.12.14 11:00:00
+DateSQL0_PrIndex
+02DateSQL0_PrIndex®9®-1®2®clWindowText®0®0®0®0®Запись0 SQL®nill®nill®nill®-1®10.12.14 11:00:00®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Дата1 архива прибора:10.12.14 12:00:00
+DatePr1SQL_PrIndex
+02DatePr1SQL_PrIndex®9®-1®2®clYellow®0®0®0®0®Дата1 архива прибора®active_ind_comport®driver_PrIndex:Irvis.inf®Дата1 архива прибора®-1®10.12.14 12:00:00®clRed®0®
+03TFormulLab
+DatePr1SQL_PrIndex®FormatDateTime(dd.mm.yy hh:mm:ss)
+07TItems
+List_PrIndex
+Объем1 при с.у.:8352778
+Vsy1_PrIndex
+02Vsy1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Объем1 при с.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Объем1 при с.у.®-1®8352778®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Объем1 при р.у.:1359847
+Vry1_PrIndex
+02Vry1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Объем1 при р.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Объем1 при р.у.®-1®1359847®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Расход1 при  с.у.:1450
+Qsy1_PrIndex
+02Qsy1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход1 при  с.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Расход1 при  с.у.®-1®1450®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Расход1 при р.у.:223
+Qry1_PrIndex
+02Qry1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход1 при р.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Расход1 при р.у.®-1®223®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Давление1:6,223
+PSQL1_PrIndex
+02PSQL1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление1®active_ind_comport®driver_PrIndex:Irvis.inf®Давление1®-1®6,223®clBtnHighlight®0®
+03TFormulLab
+PSQL1_PrIndex®RunFormChenj([PSQL1_PrIndex]*0,01)
+03TFormulLab
+PSQL1_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Температура1:3,782
+T1_PrIndex
+02T1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура1®active_ind_comport®driver_PrIndex:Irvis.inf®Температура1®-1®3,782®clBtnHighlight®0®
+03TFormulLab
+T1_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Запись1 SQL:10.12.14 12:00:00
+DateSQL1_PrIndex
+02DateSQL1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Запись1 SQL®nill®nill®nill®-1®10.12.14 12:00:00®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Дата2  архива прибора:10.12.14 13:00:00
+DatePr2SQL_PrIndex
+02DatePr2SQL_PrIndex®9®-1®2®clYellow®0®0®0®0®Дата2  архива прибора®active_ind_comport®driver_PrIndex:Irvis.inf®Дата2 архива прибора®-1®10.12.14 13:00:00®clRed®0®
+03TFormulLab
+DatePr2SQL_PrIndex®FormatDateTime(dd.mm.yy hh:mm:ss)
+07TItems
+List_PrIndex
+Объем2 при с.у.:8354183
+Vsy2_PrIndex
+02Vsy2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Объем2 при с.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Объем2 при с.у.®-1®8354183®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Объем2 при р.у.:1360063
+Vry2_PrIndex
+02Vry2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Объем2 при р.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Объем2 при р.у.®-1®1360063®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Расход2 при  с.у.:1360063
+Qsy2_PrIndex
+02Qsy2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход2 при  с.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Расход2 при  с.у.®-1®1360063®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Расход2 при р.у.:216
+Qry2_PrIndex
+02Qry2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Расход2 при р.у.®active_ind_comport®driver_PrIndex:Irvis.inf®Расход2 при р.у.®-1®216®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Давление2:6,249
+PSQL2_PrIndex
+02PSQL2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Давление2®active_ind_comport®driver_PrIndex:Irvis.inf®Давление2®-1®6,249®clBtnHighlight®0®
+03TFormulLab
+PSQL2_PrIndex®RunFormChenj([PSQL2_PrIndex]*0,01)
+03TFormulLab
+PSQL2_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Температура2:3,935
+T2_PrIndex
+02T2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Температура2®active_ind_comport®driver_PrIndex:Irvis.inf®Температура2®-1®3,935®clBtnHighlight®0®
+03TFormulLab
+T2_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Запись2 SQL:10.12.14 13:00:00
+DateSQL2_PrIndex
+02DateSQL2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Запись2 SQL®nill®nill®nill®-1®10.12.14 13:00:00®clBtnHighlight®0®

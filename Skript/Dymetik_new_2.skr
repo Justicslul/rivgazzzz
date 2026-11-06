@@ -1,0 +1,206 @@
+02ADR1FORDRIVER_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®COM_PrIndex8®driver_PrIndex:Dymetic.inf®Äàòà è âğåìÿ ïğèáîğà®-1®16 10 19 07 12 12®clBtnHighlight®0®104®14®®®®
+03TFormulLab
+ADR1FORDRIVER_PrIndex®SetChenjPer([ChDate_PrIndex:9 10] 10 [ChDate_PrIndex:1 2] [ChDate_PrIndex:4 5] [ChDate_PrIndex:12 13] [ChDate_PrIndex:12 13])
+02adress_PrIndex®9®-1®5®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®1®clBtnHighlight®0®6®13®®®®
+02driver_PrIndex®9®-1®4®clWindowText®0®0®0®0®îïèñàíèå®nill®nill®nill®-1®Dymetic.inf®clBtnHighlight®0®52®13®®®®
+10TCodrv
+active_ind_comport
+driver_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+adress_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+ADR1FORDRIVER_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+
+11TComADR
+active_ind_comport
+0
+3
+
+11TComADR
+active_ind_comport
+0
+4
+
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+
+06TListBox
+List_PrIndex®13®713®228®209®-1®ÑÏ Ïîãğàíèÿíûé Ôàêåë(Dymetic)®
+07TItems
+List_PrIndex
+COM:ÑÏ-Ïîãğàíè÷íûé
+02COM_Name_PrIndex®9®-1®2®clWindowText®0®0®0®0®COM®nill®nill®nill®-1®ÑÏ-Ïîãğàíè÷íûé®clAqua®0®86®13®®®®
+07TItems
+List_PrIndex
+----:ğåàëüíûå çíà÷åíèÿ:----
+02Real_PrIndex®9®-1®2®clWindowText®0®0®0®0®----®nill®nill®nill®-1®ğåàëüíûå çíà÷åíèÿ:----®clRed®0®115®13®®®®
+07TItems
+List_PrIndex
+Âğåìÿ ïîñëå îòâåòà:2087976
+02RTimeOut_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïîñëå îòâåòà®nill®nill®nill®-1®2087976®clYellow®0®49®14®®®®
+04TFormulLab2
+totalsecond
+RTimeOut_PrIndex®99
+07TItems
+List_PrIndex
+Ñîñòîÿíèå îòâåòà:1
+02ROtv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîñòîÿíèå îòâåòà®active_ind_comport®driver_PrIndex:Dymetic.inf®Äàòà è âğåìÿ ïğèáîğà®-1®1®clBtnHighlight®-1®7®14®®®®
+03TFormulLab
+ROtv_PrIndex®RunMod(prXX®PrIndex®\pr\DYMETIC\DYMETICReal.mod)
+03TFormulLab
+ROtv_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Âğåìÿ ïğèáîğà:19.07.2016 12:04:18
+02RealDatePr_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïğèáîğà®active_ind_comport®driver_PrIndex:Dymetic.inf®Äàòà è âğåìÿ ïğèáîğà®-1®19.07.2016 12:04:18®clBtnHighlight®0®118®14®®®®
+03TFormulLab
+RealDatePr_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Îáúåì ãàçà ğ.ó.:0,000
+02V_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ãàçà ğ.ó.®active_ind_comport®driver_PrIndex:Dymetic.inf®Îáúåì ãàçà ğ.ó.®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+V_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Îáúåì ãàçà ñ.ó.:0,000
+02Vn_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îáúåì ãàçà ñ.ó.®active_ind_comport®driver_PrIndex:Dymetic.inf®Îáúåì ãàçà ñ.ó.®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Vn_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Ğàñõîä ãàçà ğ.ó.:0,000
+02Q_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä ãàçà ğ.ó.®active_ind_comport®driver_PrIndex:Dymetic.inf®Ğàñõîä ãàçà ğ.ó.®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Q_PrIndex®RoundEx(3)
+03TFormulLab
+Q_PrIndex®RunFormChenj([Qn_PrIndex]=[Q_PrIndex]*[P_PrIndex])
+07TItems
+List_PrIndex
+Ğàñõîä CÓ (ì3/÷):0
+02Qn_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä CÓ (ì3/÷)®nill®nill®nill®-1®0®clBtnHighlight®0®6®13®®®®
+03TFormulLab
+Qn_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Äàâëåíèå ãàçà:0,000
+02P_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàâëåíèå ãàçà®active_ind_comport®driver_PrIndex:Dymetic.inf®Äàâëåíèå ãàçà®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+P_PrIndex®RunFormChenj([P_PrIndex]*0,01)
+03TFormulLab
+P_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Òåìïåğàòóğà ãàçà:33,850
+02T_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåìïåğàòóğà ãàçà®active_ind_comport®driver_PrIndex:Dymetic.inf®Òåìïåğàòóğà ãàçà®-1®33,850®clBtnHighlight®0®39®14®®®®
+03TFormulLab
+T_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Âğåìÿ íàğàáîòêè:23081
+02trab_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ íàğàáîòêè®active_ind_comport®driver_PrIndex:Dymetic.inf®Âğåìÿ íàğàáîòêè®-1®23081®clBtnHighlight®0®35®14®®®®
+07TItems
+List_PrIndex
+Ñåğèéíûé íîìåğ:03152011
+02serial_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñåğèéíûé íîìåğ®active_ind_comport®driver_PrIndex:Dymetic.inf®Ñåğèéíûé íîìåğ®-1®03152011®clBtnHighlight®0®48®13®®®®
+03TFormulLab
+serial_PrIndex®this number
+07TItems
+List_PrIndex
+Òèï ïğèáîğà:DYMETIC 5123.1 V2.0-09
+02tip_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òèï ïğèáîğà®active_ind_comport®driver_PrIndex:Dymetic.inf®Òèï ïğèáîğà®-1®DYMETIC 5123.1 V2.0-09®clBtnHighlight®0®124®13®®®®
+07TItems
+List_PrIndex
+---:Àğõèâíûå çíà÷åíèÿ:---
+02Arch_PrIndex®9®-1®2®clWindowText®0®0®0®0®---®nill®nill®nill®-1®Àğõèâíûå çíà÷åíèÿ:---®clRed®0®112®13®®®®
+07TItems
+List_PrIndex
+Íà÷àòü ñ äàòû:18.07.2016 18:00:00
+02ChDate_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íà÷àòü ñ äàòû®nill®nill®nill®-1®18.07.2016 18:00:00®clMedGray®0®118®14®®®®
+03TFormulLab
+ChDate_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm:ss)
+07TItems
+List_PrIndex
+Òàáëèöà SQL:Gaz..Gaz9_1
+02Table_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òàáëèöà SQL®nill®nill®nill®-1®Gaz..Gaz9_1®clYellow®0®62®13®®®®
+07TItems
+List_PrIndex
+Îòâåò àğõèâà:1
+02Otvet1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îòâåò àğõèâà®active_ind_comport®driver_PrIndex:Dymetic.inf®Ğàñõîä Q ïğè ğ.ó.®-1®1®clBtnHighlight®-1®7®14®®®®
+03TFormulLab
+Otvet1_PrIndex®RunMod(prXX®PrIndex®\pr\DYMETIC\DYMETICArch.mod)
+03TFormulLab
+Otvet1_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Äàòà ñ ïğ.:190716
+02Date_Otv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà ñ ïğ.®active_ind_comport®driver_PrIndex:Dymetic.inf®Äàòà ñ ïğ.®-1®190716®clBtnHighlight®0®42®14®®®®
+07TItems
+List_PrIndex
+Ñîáğàííàÿ äàòà:19.07.16 12:00:00
+02Date_sob_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ñîáğàííàÿ äàòà®active_ind_comport®driver_PrIndex:Dymetic.inf®×àñ ñ ïğ.®-1®19.07.16 12:00:00®clBtnHighlight®0®104®14®®®®
+03TFormulLab
+Date_sob_PrIndex®SetChenjPer([Date_Otv_PrIndex:e6 e5].[Date_Otv_PrIndex:e4 e3].[Date_Otv_PrIndex:e2 e1] [Ch_otv_PrIndex]:00:00)
+07TItems
+List_PrIndex
+×àñ ñ ïğ.:12
+02Ch_otv_PrIndex®9®-1®2®clWindowText®0®0®0®0®×àñ ñ ïğ.®active_ind_comport®driver_PrIndex:Dymetic.inf®×àñ ñ ïğ.®-1®12®clBtnHighlight®0®14®14®®®®
+07TItems
+List_PrIndex
+Ğàçíèöà â ÷àñ:18
+02Raznica_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàçíèöà â ÷àñ®nill®nill®nill®-1®18®clBtnHighlight®0®14®14®®®®
+04TFormulLab2
+DateDecDate([RealDatePr_PrIndex]®[ChDate_PrIndex]®h)
+Raznica_PrIndex®4
+07TItems
+List_PrIndex
+Ğàçíèöà â ìèí:0
+02RazDat_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàçíèöà â ìèí®nill®nill®nill®-1®0®clBtnHighlight®0®7®14®®®®
+07TItems
+List_PrIndex
+Ğàñõîä Q ïğè ğ.ó.:0,000
+02Vru_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä Q ïğè ğ.ó.®active_ind_comport®driver_PrIndex:Dymetic.inf®Ğàñõîä Q ïğè ğ.ó.®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Vru_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Ğàñõîä Q ïğè ñ.ó.:0,000
+02Vsu_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ğàñõîä Q ïğè ñ.ó.®active_ind_comport®driver_PrIndex:Dymetic.inf®Ğàñõîä Q ïğè ñ.ó.®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Vsu_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Äàâëåíèå:0,000
+02DavlSQL_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàâëåíèå®active_ind_comport®driver_PrIndex:Dymetic.inf®Äàâëåíèå®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+DavlSQL_PrIndex®RunFormChenj([P_PrIndex]*0,01)
+03TFormulLab
+DavlSQL_PrIndex®RoundEx(3)
+07TItems
+List_PrIndex
+Òåìïåğàòóğà:0,000
+02Temper_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òåìïåğàòóğà®active_ind_comport®driver_PrIndex:Dymetic.inf®Òåìïåğàòóğà®-1®0,000®clBtnHighlight®0®32®14®®®®
+03TFormulLab
+Temper_PrIndex®RoundEx(3)

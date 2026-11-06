@@ -1,0 +1,514 @@
+06TListBox
+List_PrIndex®27®21®275®226®-1®
+07TItems
+List_PrIndex
+---Ğåàëüíûå çíà÷åíèÿ:---
+Real_znach_PrIndex
+02Real_znach_PrIndex®9®-1®2®clWindowText®0®0®0®0®---Ğåàëüíûå çíà÷åíèÿ®nill®nill®nill®-1®---®clAqua®0®
+07TItems
+List_PrIndex
+Îòâåò îò ïğèáîğà:1
+answer_PrIndex
+02answer_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îòâåò îò ïğèáîğà®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Tok Ia®-1®1®clBtnHighlight®-1®
+03TFormulLab
+answer_PrIndex®RunMod(dvcXX®PrIndex®\pr\sir2b.mod)
+03TFormulLab
+answer_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Âğåìÿ ïîñëåäíåãî îòâåòà:1930
+time_last_PrIndex
+02time_last_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ ïîñëåäíåãî îòâåòà®nill®nill®nill®-1®1930®clYellow®0®
+04TFormulLab2
+totalsecond
+time_last_PrIndex®99
+07TItems
+List_PrIndex
+Òîê Ia:42,6
+i_a_PrIndex
+02i_a_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ia®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Tok Ia®-1®42,6®clSilver®0®
+03TFormulLab
+i_a_PrIndex®RunFormChenj([i_a_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Ib:43,4
+i_b_PrIndex
+02i_b_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ib®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Tok Ib®-1®43,4®clSilver®0®
+03TFormulLab
+i_b_PrIndex®RunFormChenj([i_b_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Ic:43,4
+i_c_PrIndex
+02i_c_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ic®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Tok Ic®-1®43,4®clSilver®0®
+03TFormulLab
+i_c_PrIndex®RunFormChenj([i_c_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ua:54,8
+u_a_PrIndex
+02u_a_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ua®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Volt Ua®-1®54,8®clGray®0®
+03TFormulLab
+u_a_PrIndex®RunFormChenj([u_a_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ub:57,6
+u_b_PrIndex
+02u_b_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ub®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Volt Ub®-1®57,6®clGray®0®
+03TFormulLab
+u_b_PrIndex®RunFormChenj([u_b_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uc:57,5
+u_c_PrIndex
+02u_c_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uc®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Volt Uc®-1®57,5®clGray®0®
+03TFormulLab
+u_c_PrIndex®RunFormChenj([u_c_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Ïğè÷èíà âêëş÷åíèÿ:1
+reason_on_PrIndex
+02reason_on_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğè÷èíà âêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®PrichVkl®-1®1®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Ïğè÷èíà îòêëş÷åíèÿ:1
+reason_off_PrIndex
+02reason_off_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğè÷èíà îòêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®PrichOtkl®-1®1®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Íåèñïğàâíîñòü 1:00000000
+error1_PrIndex
+02error1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íåèñïğàâíîñòü 1®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Neispravn1®-1®00000000®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Íåèñïğàâíîñòü 2:00000000
+error2_PrIndex
+02error2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íåèñïğàâíîñòü 2®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Neispravn2®-1®00000000®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Íåèñïğàâíîñòü 3:00000000
+error3_PrIndex
+02error3_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íåèñïğàâíîñòü 3®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Neispravn3®-1®00000000®clBtnHighlight®0®
+07TItems
+List_PrIndex
+---Àğõèâíûå ïåğåìåííûå:---
+arh_per_PrIndex
+02arh_per_PrIndex®9®-1®2®clWindowText®0®0®0®0®---Àğõèâíûå ïåğåìåííûå®nill®nill®nill®-1®---®clRed®0®
+07TItems
+List_PrIndex
+Êîğîòêîå çàìûêàíèå:0
+a_kz_PrIndex
+02a_kz_PrIndex®9®-1®2®clWindowText®0®0®0®0®Êîğîòêîå çàìûêàíèå®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®kz®-1®0®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Ïğè÷èíà âûêëş÷åíèÿ:1
+a_reason_off_PrIndex
+02a_reason_off_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğè÷èíà âûêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®reason off®-1®1®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Äàòà è âğåìÿ âûêëş÷åíèÿ:1.8.12 12:43:20
+a_dt_off_PrIndex
+02a_dt_off_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà è âğåìÿ âûêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®datetime off®-1®1.8.12 12:43:20®clBtnHighlight®0®
+03TFormulLab
+a_dt_off_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm)
+07TItems
+List_PrIndex
+Òîê êîğîòêîãî çàìûêàíèÿ:174
+a_ikz_PrIndex
+02a_ikz_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê êîğîòêîãî çàìûêàíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ikz®-1®174®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Äëèòåëüíîñòü âûêëş÷åíèÿ:0,05
+a_time_off_PrIndex
+02a_time_off_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äëèòåëüíîñòü âûêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®time off®-1®0,05®clBtnHighlight®0®
+03TFormulLab
+a_time_off_PrIndex®RunFormChenj([a_time_off_PrIndex]/100)
+07TItems
+List_PrIndex
+Äëèòåëüíîñòü çàùèòû:0,01
+a_time_def_PrIndex
+02a_time_def_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äëèòåëüíîñòü çàùèòû®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®time defender®-1®0,01®clBtnHighlight®0®
+03TFormulLab
+a_time_def_PrIndex®RunFormChenj([a_time_def_PrIndex]/100)
+07TItems
+List_PrIndex
+Ïğè÷èíà âêëş÷åíèÿ:1
+a_reason_on_PrIndex
+02a_reason_on_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ïğè÷èíà âêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®reason on®-1®1®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Äàòà è âğåìÿ âêëş÷åíèÿ:24.7.12 17:25:39
+a_dt_on_PrIndex
+02a_dt_on_PrIndex®9®-1®2®clWindowText®0®0®0®0®Äàòà è âğåìÿ âêëş÷åíèÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®datetime on®-1®24.7.12 17:25:39®clBtnHighlight®0®
+03TFormulLab
+a_dt_on_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm)
+07TItems
+List_PrIndex
+Òîê Ia ïğè âûêëş÷åíèè:34,8
+a_ia_PrIndex
+02a_ia_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ia ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ia®-1®34,8®clBtnHighlight®0®
+03TFormulLab
+a_ia_PrIndex®RunFormChenj([a_ia_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Ib ïğè âûêëş÷åíèè:34,2
+a_ib_PrIndex
+02a_ib_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ib ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ib®-1®34,2®clBtnHighlight®0®
+03TFormulLab
+a_ib_PrIndex®RunFormChenj([a_ib_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Ic ïğè âûêëş÷åíèè:33
+a_ic_PrIndex
+02a_ic_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ic ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ic®-1®33®clBtnHighlight®0®
+03TFormulLab
+a_ic_PrIndex®RunFormChenj([a_ic_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê I2 ïğè âûêëş÷åíèè:0,4
+a_i2_PrIndex
+02a_i2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê I2 ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®I2®-1®0,4®clBtnHighlight®0®
+03TFormulLab
+a_i2_PrIndex®RunFormChenj([a_i2_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Iax ïğè âûêëş÷åíèè:13092,6
+a_iax_PrIndex
+02a_iax_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Iax ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Iax®-1®13092,6®clBtnHighlight®0®
+03TFormulLab
+a_iax_PrIndex®RunFormChenj([a_iax_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Iay ïğè âûêëş÷åíèè:13075,6
+a_iay_PrIndex
+02a_iay_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Iay ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Iay®-1®13075,6®clBtnHighlight®0®
+03TFormulLab
+a_iay_PrIndex®RunFormChenj([a_iay_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Ibx ïğè âûêëş÷åíèè:13088,4
+a_ibx_PrIndex
+02a_ibx_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Ibx ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ibx®-1®13088,4®clBtnHighlight®0®
+03TFormulLab
+a_ibx_PrIndex®RunFormChenj([a_ibx_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Iby ïğè âûêëş÷åíèè:28,8
+a_iby_PrIndex
+02a_iby_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Iby ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Iby®-1®28,8®clBtnHighlight®0®
+03TFormulLab
+a_iby_PrIndex®RunFormChenj([a_iby_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Icx ïğè âûêëş÷åíèè:33
+a_icx_PrIndex
+02a_icx_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Icx ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Icx®-1®33®clBtnHighlight®0®
+03TFormulLab
+a_icx_PrIndex®RunFormChenj([a_icx_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Òîê Iñy ïğè âûêëş÷åíèè:2,2
+a_icy_PrIndex
+02a_icy_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òîê Iñy ïğè âûêëş÷åíèè®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Icy®-1®2,2®clBtnHighlight®0®
+03TFormulLab
+a_icy_PrIndex®RunFormChenj([a_icy_PrIndex]*0,01*[koef_PrIndex])
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ua:55,5
+a_ua_PrIndex
+02a_ua_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ua®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ua®-1®55,5®clTeal®0®
+03TFormulLab
+a_ua_PrIndex®RunFormChenj([a_ua_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ub:56,4
+a_ub_PrIndex
+02a_ub_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ub®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ub®-1®56,4®clTeal®0®
+03TFormulLab
+a_ub_PrIndex®RunFormChenj([a_ub_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uc:56,7
+a_uc_PrIndex
+02a_uc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uc®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uc®-1®56,7®clTeal®0®
+03TFormulLab
+a_uc_PrIndex®RunFormChenj([a_uc_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uab:97,6
+a_uab_PrIndex
+02a_uab_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uab®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uab®-1®97,6®clTeal®0®
+03TFormulLab
+a_uab_PrIndex®RunFormChenj([a_uab_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ubc:98
+a_ubc_PrIndex
+02a_ubc_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ubc®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubc®-1®98®clTeal®0®
+03TFormulLab
+a_ubc_PrIndex®RunFormChenj([a_ubc_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uca:96,5
+a_uca_PrIndex
+02a_uca_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uca®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uca®-1®96,5®clTeal®0®
+03TFormulLab
+a_uca_PrIndex®RunFormChenj([a_uca_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uabv:0
+a_uabv_PrIndex
+02a_uabv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uabv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uabv®-1®0®clTeal®0®
+03TFormulLab
+a_uabv_PrIndex®RunFormChenj([a_uabv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ubcv:0
+a_ubcv_PrIndex
+02a_ubcv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ubcv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubcv®-1®0®clTeal®0®
+03TFormulLab
+a_ubcv_PrIndex®RunFormChenj([a_ubcv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ucav:0
+a_ucav_PrIndex
+02a_ucav_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ucav®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ucav®-1®0®clTeal®0®
+03TFormulLab
+a_ucav_PrIndex®RunFormChenj([a_ucav_PrIndex]*0,1)
+07TItems
+List_PrIndex
+3U0:1,8
+a_3u0_PrIndex
+02a_3u0_PrIndex®9®-1®2®clWindowText®0®0®0®0®3U0®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®3U0®-1®1,8®clTeal®0®
+03TFormulLab
+a_3u0_PrIndex®RunFormChenj([a_3u0_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå U2:0,7
+a_u2_PrIndex
+02a_u2_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå U2®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®U2®-1®0,7®clTeal®0®
+03TFormulLab
+a_u2_PrIndex®RunFormChenj([a_u2_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uax:6544,9
+a_uax_PrIndex
+02a_uax_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uax®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uax®-1®6544,9®clTeal®0®
+03TFormulLab
+a_uax_PrIndex®RunFormChenj([a_uax_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uay:6498,7
+a_uay_PrIndex
+02a_uay_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uay®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uay®-1®6498,7®clTeal®0®
+03TFormulLab
+a_uay_PrIndex®RunFormChenj([a_uay_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ubx:6510,6
+a_ubx_PrIndex
+02a_ubx_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ubx®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubx®-1®6510,6®clTeal®0®
+03TFormulLab
+a_ubx_PrIndex®RunFormChenj([a_ubx_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uby:36,5
+a_uby_PrIndex
+02a_uby_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uby®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uby®-1®36,5®clTeal®0®
+03TFormulLab
+a_uby_PrIndex®RunFormChenj([a_uby_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ucx:53,5
+a_ucx_PrIndex
+02a_ucx_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ucx®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ucx®-1®53,5®clTeal®0®
+03TFormulLab
+a_ucx_PrIndex®RunFormChenj([a_ucx_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ucy:18,9
+a_ucy_PrIndex
+02a_ucy_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ucy®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ucy®-1®18,9®clTeal®0®
+03TFormulLab
+a_ucy_PrIndex®RunFormChenj([a_ucy_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uabx:34,3
+a_uabx_PrIndex
+02a_uabx_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uabx®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uabx®-1®34,3®clTeal®0®
+03TFormulLab
+a_uabx_PrIndex®RunFormChenj([a_uabx_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Uaby:6462,2
+a_uaby_PrIndex
+02a_uaby_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Uaby®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uaby®-1®6462,2®clTeal®0®
+03TFormulLab
+a_uaby_PrIndex®RunFormChenj([a_uaby_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ubcx:6457,1
+a_ubcx_PrIndex
+02a_ubcx_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ubcx®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubcx®-1®6457,1®clTeal®0®
+03TFormulLab
+a_ubcx_PrIndex®RunFormChenj([a_ubcx_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå Ubcy:17,6
+a_ubcy_PrIndex
+02a_ubcy_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå Ubcy®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubcy®-1®17,6®clTeal®0®
+03TFormulLab
+a_ubcy_PrIndex®RunFormChenj([a_ubcy_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå  Uabxv:256,9
+a_uabxv_PrIndex
+02a_uabxv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå  Uabxv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uabxv®-1®256,9®clTeal®0®
+03TFormulLab
+a_uabxv_PrIndex®RunFormChenj([a_uabxv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå  Uabyv:3083
+a_uabyv_PrIndex
+02a_uabyv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå  Uabyv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Uabyv®-1®3083®clTeal®0®
+07TItems
+List_PrIndex
+Íàïğÿæåíèå  Ubcxv:359,7
+a_ubcxv_PrIndex
+02a_ubcxv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå  Ubcxv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubcxv®-1®359,7®clTeal®0®
+03TFormulLab
+a_ubcxv_PrIndex®RunFormChenj([a_ubcxv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå  Ubcyv:411,1
+a_ubcyv_PrIndex
+02a_ubcyv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå  Ubcyv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ubcyv®-1®411,1®clTeal®0®
+03TFormulLab
+a_ubcyv_PrIndex®RunFormChenj([a_ubcyv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå  Ucaxv:0
+a_ucaxv_PrIndex
+02a_ucaxv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå  Ucaxv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ucaxv®-1®0®clTeal®0®
+03TFormulLab
+a_ucaxv_PrIndex®RunFormChenj([a_ucaxv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Íàïğÿæåíèå  Ucayv:0
+a_ucayv_PrIndex
+02a_ucayv_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íàïğÿæåíèå  Ucayv®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Ucayv®-1®0®clTeal®0®
+03TFormulLab
+a_ucayv_PrIndex®RunFormChenj([a_ucayv_PrIndex]*0,1)
+07TItems
+List_PrIndex
+Òóìáëåğû:00000000
+a_tumb_PrIndex
+02a_tumb_PrIndex®9®-1®2®clWindowText®0®0®0®0®Òóìáëåğû®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®tumbler®-1®00000000®clBtnHighlight®0®
+07TItems
+List_PrIndex
+---Ñëóæåáíûå ïåğåìåííûå:---
+slug_per_PrIndex
+02slug_per_PrIndex®9®-1®2®clWindowText®0®0®0®0®---Ñëóæåáíûå ïåğåìåííûå®nill®nill®nill®-1®---®clRed®0®
+07TItems
+List_PrIndex
+Êîıôôèöèåíò:20
+koef_PrIndex
+02koef_PrIndex®9®-1®2®clWindowText®0®0®0®0®Êîıôôèöèåíò®nill®nill®nill®-1®20®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Îòâåò îò ïğèáîğà (ôëàã):1
+answer_flag_PrIndex
+02answer_flag_PrIndex®9®-1®2®clWindowText®0®0®0®0®Îòâåò îò ïğèáîğà (ôëàã)®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®on/off®-1®1®clBtnHighlight®-1®
+03TFormulLab
+answer_flag_PrIndex®RunMod(dvcXX®PrIndex®\pr\sir2b_arh.mod)
+03TFormulLab
+answer_flag_PrIndex®SetChenjPer(1)
+07TItems
+List_PrIndex
+Âğåìÿ çàïèñè â ÁÄ:11
+delay1_PrIndex
+02delay1_PrIndex®9®-1®2®clWindowText®0®0®0®0®Âğåìÿ çàïèñè â ÁÄ®nill®nill®nill®-1®11®clBtnHighlight®0®
+04TFormulLab2
+totalsecond
+delay1_PrIndex®99
+07TItems
+List_PrIndex
+Íîâîå îòêëş÷åíèå:1
+newoff_PrIndex
+02newoff_PrIndex®9®-1®2®clWindowText®0®0®0®0®Íîâîå îòêëş÷åíèå®active_ind_comport®driver_sir_PrIndex:sirius2lmodbus.inf®flags_off®-1®1®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Áàçà äëÿ çàïèñè:Sirius..sirius2ltest
+db_name_PrIndex
+02db_name_PrIndex®9®-1®2®clWindowText®0®0®0®0®Áàçà äëÿ çàïèñè®nill®nill®nill®-1®Sirius..sirius2ltest®clTeal®0®
+07TItems
+List_PrIndex
+Ôëàã âêë/âûêë:01000000
+flag_PrIndex
+02flag_PrIndex®9®-1®2®clWindowText®0®0®0®0®Ôëàã âêë/âûêë®active_ind_comport®driver_sir_PrIndex:sirius2lmodbus.inf®on/off®-1®01000000®clBtnHighlight®0®
+07TItems
+List_PrIndex
+Koord:185/583.9
+Koord_PrIndex
+02Koord_PrIndex®9®-1®2®clYellow®0®0®0®0®Koord®nill®nill®nill®-1®185/583.9®clBlue®0®
+07TItems
+List_PrIndex
+Çàâ.Íîìåğ:830
+ZavNom_PrIndex
+02ZavNom_PrIndex®9®-1®2®clRed®0®0®0®0®Çàâ.Íîìåğ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Çàâîäñêîé íîìåğ óñòğîéñòâà®-1®830®clYellow®0®
+07TItems
+List_PrIndex
+Äàòà è âğåìÿ:21.10.2014 10:38
+DateTime_PrIndex
+02DateTime_PrIndex®9®-1®2®clBlue®0®0®0®0®Äàòà è âğåìÿ®active_ind_comport®driver_sir_PrIndex:sirius2bmodbus.inf®Äàòà è âğåìÿ óñòğîéñòâà®-1®21.10.2014 10:38®clGray®0®
+03TFormulLab
+DateTime_PrIndex®FormatDateTime(dd.mm.yyyy hh:mm)
+02val_byte_PrIndex®9®-1®5®clWindowText®0®0®0®0®iienaiea®nill®nill®nill®-1®0®clBtnHighlight®0®
+02numb_func_PrIndex®9®-1®5®clWindowText®0®0®0®0®iienaiea®nill®nill®nill®-1®5®clBtnHighlight®0®
+02adr_flag_PrIndex®9®-1®5®clWindowText®0®0®0®0®iienaiea®nill®nill®nill®-1®4®clBtnHighlight®0®
+02adr_rec_PrIndex®9®-1®5®clWindowText®0®0®0®0®iienaiea®nill®nill®nill®-1®112®clBtnHighlight®0®
+02serial_PrIndex®9®-1®5®clWindowText®0®0®0®0®iienaiea®active_ind_comport®driver_sir_PrIndex:sirius2lmodbus.inf®Serial®-1®4®clBtnHighlight®0®
+02driver_sir_PrIndex®9®-1®4®clWindowText®0®0®0®0®iienaiea®nill®nill®nill®-1®sirius2bmodbus.inf®clBtnHighlight®0®
+10TCodrv
+active_ind_comport
+driver_sir_PrIndex
+11TComADR
+active_ind_comport
+0
+0
+serial_PrIndex
+11TComADR
+active_ind_comport
+0
+1
+adr_rec_PrIndex
+11TComADR
+active_ind_comport
+0
+2
+adr_flag_PrIndex
+11TComADR
+active_ind_comport
+0
+3
+numb_func_PrIndex
+11TComADR
+active_ind_comport
+0
+4
+val_byte_PrIndex
+11TComADR
+active_ind_comport
+0
+5
+
+11TComADR
+active_ind_comport
+0
+6
+
+11TComADR
+active_ind_comport
+0
+7
+

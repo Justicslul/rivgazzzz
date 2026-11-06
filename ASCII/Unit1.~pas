@@ -1,0 +1,201 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Grids, Buttons, ComObj, Gauges;
+
+type
+  TForm1 = class(TForm)
+    SG: TStringGrid;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    Gauge1: TGauge;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Button1: TButton;
+    procedure FormCreate(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+    procedure SGClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+  function HEX2DEC(HEX: string): LONGINT;
+
+var
+  Form1: TForm1;
+
+
+implementation
+
+uses Unit2;
+
+{$R *.dfm}
+
+function HEX2DEC(HEX: string): LONGINT;
+
+  function Digt(Ch: CHAR): BYTE;
+
+  const
+    HEXDigts: string[16] = '0123456789ABCDEF';
+
+  var
+    I: BYTE;
+    N: BYTE;
+
+  begin
+    N := 0;
+    for I := 1 to Length(HEXDigts) do
+      if Ch = HEXDigts[I] then
+        N := I - 1;
+    Digt := N;
+  end;
+
+const
+  HEXSet: set of CHAR = ['0'..'9', 'A'..'F'];
+
+var
+  J: LONGINT;
+  Error: BOOLEAN;
+  DEC: LONGINT;
+
+begin
+  DEC := 0;
+  Error := False;
+  for J := 1 to Length(HEX) do
+  begin
+    if not (UpCase(HEX[J]) in HEXSet) then
+      Error := True;
+    DEC := DEC + Digt(UpCase(HEX[J])) shl ((Length(HEX) - J) * 4);
+    { 16^N = 2^(N * 4) }
+    { N SHL ((Length(HEX) - J) * 4) = N * 16^(Length(HEX) - J) }
+  end;
+  if Error then
+    HEX2DEC := 0
+  else
+    HEX2DEC := DEC;
+end;
+
+
+
+procedure TForm1.FormCreate(Sender: TObject);
+var i: integer;
+    r,c: integer;
+begin
+
+ for i:=0 to 15 do
+  begin
+   if i>9 then
+    begin
+     case i of
+     10:
+      begin
+       sg.Cells[0,i+1]:='      A0';
+       sg.Cells[i+1,0]:='       A';
+      end;
+     11:
+      begin
+       sg.Cells[0,i+1]:='      B0';
+       sg.Cells[i+1,0]:='       B';
+      end;
+     12:
+      begin
+       sg.Cells[0,i+1]:='      C0';
+       sg.Cells[i+1,0]:='       C';
+      end;
+     13:
+      begin
+       sg.Cells[0,i+1]:='      D0';
+       sg.Cells[i+1,0]:='       D';
+      end;
+     14:
+      begin
+       sg.Cells[0,i+1]:='      E0';
+       sg.Cells[i+1,0]:='       E';
+      end;
+     15:
+      begin
+       sg.Cells[0,i+1]:='      F0';
+       sg.Cells[i+1,0]:='       F';
+      end;
+     end;
+    end
+   else
+    begin
+     sg.Cells[0,i+1]:='      '+inttostr(i)+'0';
+     sg.Cells[i+1,0]:='       '+inttostr(i);
+    end;
+  end;
+ r:= 1; c:= 1;
+ for i:= 0 to 255 do
+  begin
+   SG.Cells[c,r]:='       '+chr(i);
+   if c=16 then begin r:=r+1; c:=1; end else inc(c);
+  end;
+end;
+
+procedure TForm1.BitBtn1Click(Sender: TObject);
+begin
+ WinExec(pchar('c:\windows\system32\calc.exe'),0);
+end;
+
+procedure TForm1.BitBtn2Click(Sender: TObject);
+const
+ xlHAlignCenter=-4108;
+ xlVAlignCenter=-4108;
+var app: variant;
+    i,j: integer;
+    r,c: integer;
+begin
+ try
+    //проверяем, нет ли запущенного Excel
+    app := GetActiveOleObject('Excel.Application');
+    app.Quit;
+  except
+    //если нет, то запускаем
+    on EOLESysError do
+     begin
+      app := CreateOleObject('Excel.Application');
+      app:= GetActiveOleObject('Excel.Application');
+     end;
+  end;
+ app.WorkBooks.Add;
+ Gauge1.MaxValue:=255;
+ r:= 0; c:= 0;
+ for i:= 0 to 16 do
+  for j:= 0 to 16 do
+   begin
+    app.Worksheets.Item['Лист1'].cells[i+1,j+1].Value:=trim(sg.Cells[j,i]);
+    app.Worksheets.Item['Лист1'].cells[i+1,j+1].horizontalalignment:=xlHAlignCenter;
+    app.Worksheets.Item['Лист1'].cells[i+1,j+1].verticalalignment:=xlVAlignCenter;
+    Gauge1.Progress:=Gauge1.Progress+1;
+   end;
+ app.visible:=true;
+ Gauge1.Progress:=0;
+end;
+
+procedure TForm1.SGClick(Sender: TObject);
+var st: string;
+    c,r: integer;
+begin
+ c:=sg.Col;
+ r:=sg.Row;
+ st:=copy(trim(sg.Cells[0,r]),1,1)+trim(sg.Cells[c,0]);
+ edit1.Text:=st;
+ edit2.Text:=inttostr(HEX2DEC(st));
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+ form2.Show;
+end;
+
+end.
